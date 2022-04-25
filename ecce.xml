@@ -59,9 +59,7 @@
 
   <display>
   <include ref="compact/colors.xml" />
-  <!--include ref="compact/colors2.xml"/-->
   <include ref="compact/display.xml" />
-  <!--include ref="compact/display_detailed.xml"/-->
   </display>
 
   <documentation level="0">
@@ -93,7 +91,7 @@
     ## Central tracking detectors
   </documentation>
 
-  <include ref="compact/tracking_config.xml"/>
+  <include ref="compact/tracker_ecce.xml"/>
 
   <documentation level="10">
   ### PID detectors

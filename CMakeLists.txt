@@ -71,8 +71,8 @@ dd4hep_add_plugin(${a_lib_name} SOURCES
   src/SimpleDiskDetector_geo.cpp
   src/Solenoid_geo.cpp
   src/TrapEndcapTracker_geo.cpp
-  src/TrackerSupport_geo.cpp
-  USES ${ActsDD4hep}
+  src/SupportServiceMaterial_geo.cpp
+  USES ${ActsDD4hep} 
   )
 target_link_libraries(${a_lib_name}
   PUBLIC DD4hep::DDCore DD4hep::DDRec fmt::fmt

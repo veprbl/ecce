@@ -85,7 +85,9 @@
   <documentation level="5">
      ## Main magnet
   </documentation>
+  <!--
   <include ref="compact/solenoid.xml"/>
+  -->
 
   <documentation level="10">
     ## Central tracking detectors
@@ -96,6 +98,7 @@
   <documentation level="10">
   ### PID detectors
   </documentation>
+  <!--
   <include ref="compact/pid_config.xml"/>
 
   <documentation level="10">
@@ -118,5 +121,7 @@
   ## Far backward detectors
   </documentation>
   <include ref="ip6/far_backward.xml"/>
+
+  -->
 
 </lccdd>

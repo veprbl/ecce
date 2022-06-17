@@ -42,6 +42,12 @@ else()
 endif()
 find_package(fmt REQUIRED)
 
+### temporary preprocessor macro to easily switch on/off IRT code # TODO: get rid of `WITH_IRT` when IRT is integrated in CI
+### switch: comment/uncomment these 3 lines, as well as `IRT` in `target_link_libraries` below
+add_compile_definitions(WITH_IRT)
+find_package(IRT REQUIRED)
+include_directories( ${CMAKE_INSTALL_PREFIX}/include ${CMAKE_INSTALL_PREFIX}/include/IRT )
+
 #-----------------------------------------------------------------------------------
 set(a_lib_name ecce)
 
@@ -75,7 +81,7 @@ dd4hep_add_plugin(${a_lib_name} SOURCES
   USES ${ActsDD4hep}
   )
 target_link_libraries(${a_lib_name}
-  PUBLIC DD4hep::DDCore DD4hep::DDRec fmt::fmt
+  PUBLIC DD4hep::DDCore DD4hep::DDRec fmt::fmt IRT
   )
 
 #-----------------------------------------------------------------------------------

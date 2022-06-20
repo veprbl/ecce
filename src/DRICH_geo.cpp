@@ -14,11 +14,16 @@
 #include "DD4hep/Printout.h"
 #include "DDRec/DetectorData.h"
 #include "DDRec/Surface.h"
-#include "GeometryHelpers.h"
-#include "Math/Point2D.h"
-#include "TMath.h"
-#include "TString.h"
+
 #include <XML/Helper.h>
+
+#ifdef WITH_IRT // TODO: get rid of this preprocessor macro after IRT package is integrated in athena CI
+#include <ParametricSurface.h>
+#include <CherenkovRadiator.h>
+#include <OpticalBoundary.h>
+#include <CherenkovDetectorCollection.h>
+#include <CherenkovPhotonDetector.h>
+#endif
 
 using namespace dd4hep;
 using namespace dd4hep::rec;

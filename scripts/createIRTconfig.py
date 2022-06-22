@@ -1,32 +1,52 @@
 # produce auxiliary ROOT file for the IRT algorithm
+
+import shutil, os, sys, argparse
 import xml.etree.ElementTree as et
-import shutil, os, DDG4
+
+parser = argparse.ArgumentParser()
+parser.add_argument(
+        '-o', '--output-name', dest='outFile', default='irt-drich.root',
+        help='output auxiliary ROOT file name', type=str
+        )
+argv = parser.parse_args()
+
+import DDG4
+
 
 def run():
 
     # compact files
-    mainFile  = 'ecce.xml'
-    richFile = 'compact/drich.xml'
+    if not 'DETECTOR_PATH' in os.environ:
+        print('ERROR: env var DETECTOR_PATH not set',file=sys.stderr)
+        exit(1)
+    mainFile = os.environ['DETECTOR_PATH'] + '/ecce.xml'
+    richFile = os.environ['DETECTOR_PATH'] + '/compact/drich.xml'
 
-    # backup the RICH compact file
+    # backup original richFile, then parse
     shutil.copy(richFile,richFile+'.bak')
+    richTree = et.parse(richFile)
 
-    # parse the RICH compact file, enable `DRICH_create_irt_file` mode, then overwrite
-    compactTree = et.parse(richFile)
-    for constant in compactTree.iter(tag='constant'):
+    # enable `DRICH_create_irt_file` mode
+    for constant in richTree.iter(tag='constant'):
         if(constant.attrib['name']=='DRICH_create_irt_file'):
             constant.set('value','1')
-    compactTree.write(richFile)
+
+    # set auxiliary file name
+    for detector in richTree.iter(tag='detector'):
+        detector.set('irt_filename',argv.outFile)
+
+    # overwrite original richFile
+    richTree.write(richFile)
 
     # produce IRT config file
     try:
         kernel = DDG4.Kernel()
-        kernel.loadGeometry(str(f'file:{mainFile}'))
+        kernel.loadGeometry(f'file:{mainFile}')
         kernel.terminate()
     except:
         pass
 
-    # revert to the original compact file
+    # revert to the original richFile
     os.replace(richFile+'.bak',richFile)
 
 if __name__ == "__main__":

@@ -265,6 +265,13 @@ detector:config_testing:
     - checkOverlaps -o 's' -c ${DETECTOR_PATH}/ecce.xml  | tee doc/overlap_check.out | wc -l
     - cat doc/overlap_check.out
 
+irt_config:
+  stage: test
+  needs:
+    - ["common:detector"]
+  script:
+    - python scripts/createIRTconfig.py -o geo/irt-drich.root
+
 benchmarks:detector:
   stage: deploy
   variables:

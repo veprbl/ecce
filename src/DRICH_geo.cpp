@@ -58,6 +58,7 @@ static Ref_t createDetector(Detector& desc, xml::Handle_t handle, SensitiveDetec
   auto   gasvolMat          = desc.material(detElem.attr<std::string>(_Unicode(gas)));
   auto   vesselVis          = desc.visAttributes(detElem.attr<std::string>(_Unicode(vis_vessel)));
   auto   gasvolVis          = desc.visAttributes(detElem.attr<std::string>(_Unicode(vis_gas)));
+  auto   irtAuxFileName     = detElem.attr<std::string>(_Unicode(irt_filename));
   // - radiator (applies to aerogel and filter)
   auto   radiatorElem       = detElem.child(_Unicode(radiator));
   double radiatorRmin       = radiatorElem.attr<double>(_Unicode(rmin));
@@ -134,14 +135,12 @@ static Ref_t createDetector(Detector& desc, xml::Handle_t handle, SensitiveDetec
 #ifdef WITH_IRT
   // IRT geometry auxiliary file :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
   /* - optionally generate an auxiliary ROOT file, storing geometry objects for IRT 
-   * - use compact file variable `create_irt_file` to control this
+   * - use compact file variable `DRICH_create_irt_file` to control this
    */
   std::unique_ptr<TFile>                       irtAuxFile;
   std::unique_ptr<CherenkovDetectorCollection> irtGeometry;
   std::shared_ptr<CherenkovDetector>           irtDetector;
   if (createIrtFile) {
-    std::string irtAuxFileName = detName + "-config.root";
-    std::transform(irtAuxFileName.begin(), irtAuxFileName.end(), irtAuxFileName.begin(), ::tolower);
     irtAuxFile  = std::make_unique<TFile>(irtAuxFileName.c_str(), "RECREATE");
     irtGeometry = std::make_unique<CherenkovDetectorCollection>();
     irtDetector.reset(irtGeometry->AddNewDetector(detName.c_str()));

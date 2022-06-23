@@ -17,7 +17,6 @@
 
 #include <XML/Helper.h>
 
-#ifdef WITH_IRT // TODO: get rid of this preprocessor macro after IRT package is integrated
 #include <ParametricSurface.h>
 #include <CherenkovRadiator.h>
 #include <OpticalBoundary.h>
@@ -25,7 +24,6 @@
 #include <CherenkovPhotonDetector.h>
 
 #include <TFile.h>
-#endif
 
 using namespace dd4hep;
 using namespace dd4hep::rec;
@@ -132,7 +130,6 @@ static Ref_t createDetector(Detector& desc, xml::Handle_t handle, SensitiveDetec
   };
 
 
-#ifdef WITH_IRT
   // IRT geometry auxiliary file :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
   /* - optionally generate an auxiliary ROOT file, storing geometry objects for IRT 
    * - use compact file variable `DRICH_create_irt_file` to control this
@@ -146,7 +143,6 @@ static Ref_t createDetector(Detector& desc, xml::Handle_t handle, SensitiveDetec
     irtDetector.reset(irtGeometry->AddNewDetector(detName.c_str()));
     printout(ALWAYS, "DRICH_geo", "Producing auxiliary ROOT file for IRT: %s",irtAuxFileName.c_str());
   }
-#endif
 
 
   // BUILD VESSEL ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -533,13 +529,11 @@ static Ref_t createDetector(Detector& desc, xml::Handle_t handle, SensitiveDetec
   vesselPV.addPhysVolID("system", detID);
   det.setPlacement(vesselPV);
 
-#ifdef WITH_IRT
   // write IRT auxiliary file
   if (createIrtFile) {
     irtGeometry->Write();
     irtAuxFile->Close();
   }
-#endif
 
   return det;
 };

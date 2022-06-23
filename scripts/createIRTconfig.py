@@ -43,6 +43,7 @@ def run():
         kernel = DDG4.Kernel()
         kernel.loadGeometry(f'file:{mainFile}')
         kernel.terminate()
+        print(f'\n -> produced {argv.outFile}\n')
     except:
         pass
 

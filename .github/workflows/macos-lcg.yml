@@ -19,5 +19,5 @@ jobs:
       with:
         release-platform: ${{ matrix.LCG }}
         run: |
-          cmake -B build -S .
+          cmake -B build -S . --trace
           cmake --build build -- install

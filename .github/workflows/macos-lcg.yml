@@ -19,7 +19,10 @@ jobs:
       with:
         release-platform: ${{ matrix.LCG }}
         run: |
+          set -x
           cmake -B build -S .
           VERBOSE=1 cmake --build build -- install || true
           otool -l build/lib/libecce.dylib
           otool -L build/lib/libecce.dylib
+          cd build/lib/
+          DYLD_LIBRARY_PATH=/Users/runner/work/ecce/ecce/build/lib:/Users/Shared/cvmfs/sft.cern.ch/lcg/views/LCG_101/x86_64-mac1015-clang120-opt/lib DYLD_PRINT_LIBRARIES=1 DYLD_PRINT_LIBRARIES_POST_LAUNCH=1 listcomponents_dd4hep -o libecce.components libecce.dylib

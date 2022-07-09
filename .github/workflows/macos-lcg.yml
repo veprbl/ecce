@@ -20,4 +20,6 @@ jobs:
         release-platform: ${{ matrix.LCG }}
         run: |
           cmake -B build -S .
-          VERBOSE=1 cmake --build build -- install
+          VERBOSE=1 cmake --build build -- install || true
+          otool -l build/lib/libecce.dylib
+          otool -L build/lib/libecce.dylib

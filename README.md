@@ -39,7 +39,7 @@ You will  likely want to use this repository along with the IP6 repository:
 ```bash
 git clone https://eicweb.phy.anl.gov/EIC/detectors/ecce.git
 git clone https://eicweb.phy.anl.gov/EIC/detectors/ip6.git
-ln -s ../ip6/ip6 ecce/ip6
+export BEAMLINE_PATH=$PWD/ip6/../
 ```
 
 ### Adding/changing detector geometry

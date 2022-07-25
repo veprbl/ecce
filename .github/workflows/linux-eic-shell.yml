@@ -15,7 +15,6 @@ jobs:
         uses: fkirc/skip-duplicate-actions@v4
         with:
           skip_duplicate_actions: 'same_content_newer'
-          do_not_skip: '["pull_request", "workflow_dispatch", "schedule"]'
 
   xmllint-before-build:
     runs-on: ubuntu-latest

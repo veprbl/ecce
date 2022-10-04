@@ -68,13 +68,13 @@ set(a_lib_name ${PROJECT_NAME})
 
 dd4hep_configure_output()
 
-file(GLOB sources CONFIGURE_DEPENDS src/*.cpp)
+file(GLOB sources CONFIGURE_DEPENDS src/BarrelHCalCalorimeter_geo.cpp)
 dd4hep_add_plugin(${a_lib_name}
   SOURCES ${sources}
   USES ${ActsDD4hep}
   )
 target_link_libraries(${a_lib_name}
-  PUBLIC ${DD4hep_required_libraries} fmt::fmt
+	PUBLIC ${DD4hep_required_libraries} fmt::fmt Gdml
   )
 if(EPIC_ECCE_LEGACY_COMPAT)
   target_compile_definitions(${a_lib_name} PUBLIC EPIC_ECCE_LEGACY_COMPAT)

@@ -1,0 +1,731 @@
+<?xml version='1.0' encoding='ASCII'?>
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">
+  <define>
+    <constant name="HALFPI" value="pi/2."/>
+  <constant name="PI" value="1.*pi"/>
+  <constant name="TWOPI" value="2.*pi"/>
+  <position name="HCAL_Chimney_Sector_Plate_0" unit="mm" x="-219.31109619140625" y="6590.8876953125" z="1470.7679443359375"/>
+  <position name="HCAL_Chimney_Sector_Plate_1" unit="mm" x="-219.31109619140625" y="6590.8876953125" z="1075.1519775390625"/>
+  <position name="HCAL_Chimney_Sector_Plate_2" unit="mm" x="-122.46575927734375" y="6213.3505859375" z="1272.9599609375"/>
+  <position name="HCAL_Chimney_Sector_Plate_3" unit="mm" x="-122.70283508300781" y="6214.27490234375" z="1653.6573486328125"/>
+  <position name="HCAL_Chimney_Sector_Plate_4" unit="mm" x="-136.3962860107422" y="6267.65673828125" z="900.5333251953125"/>
+  <position name="HCAL_Chimney_Sector_Plate_5" unit="mm" x="-59.614166259765625" y="5968.3330078125" z="1072.3499755859375"/>
+  <position name="HCAL_Chimney_Sector_Plate_6" unit="mm" x="-69.92938995361328" y="6008.54541015625" z="826.9500122070312"/>
+  <position name="HCAL_Chimney_Sector_Plate_7" unit="mm" x="-219.31109619140625" y="6590.8876953125" z="2018.0159912109375"/>
+  <position name="HCAL_Chimney_Sector_Plate_8" unit="mm" x="-219.31109619140625" y="6590.8876953125" z="1765.2960205078125"/>
+  <position name="HCAL_Chimney_Sector_Plate_9" unit="mm" x="-152.77694702148438" y="6331.51416015625" z="1909.5797119140625"/>
+  <position name="HCAL_Chimney_Sector_Plate_10" unit="mm" x="-152.77694702148438" y="6331.51416015625" z="2046.28564453125"/>
+  <position name="HCAL_Chimney_Sector_Plate_11" unit="mm" x="-219.31109619140625" y="6590.8876953125" z="484.8479919433594"/>
+  <position name="HCAL_Chimney_Sector_Plate_12" unit="mm" x="-219.31109619140625" y="6590.8876953125" z="-194.68800354003906"/>
+  <position name="HCAL_Chimney_Sector_Plate_13" unit="mm" x="-14.344938278198242" y="5791.857421875" z="203.10000610351562"/>
+  <position name="HCAL_Chimney_Sector_Plate_14" unit="mm" x="-14.344938278198242" y="5791.857421875" z="681.2999877929688"/>
+  <position name="HCAL_Chimney_Sector_Plate_15" unit="mm" x="-117.048583984375" y="6192.232421875" z="-3120.0"/>
+  <position name="HCAL_Chimney_Sector_Plate_16" unit="mm" x="-158.41026306152344" y="6353.474609375" z="-3120.0"/>
+  <position name="HCAL_Chimney_Sector_Plate_17" unit="mm" x="-115.83061218261719" y="6333.548828125" z="-3120.0"/>
+  <position name="HCAL_Chimney_Sector_Plate_18" unit="mm" x="-153.64627075195312" y="6493.99267578125" z="-3120.0"/>
+  <position name="HCAL_Chimney_Sector_Plate_19" unit="mm" x="-178.73770141601562" y="6600.45068359375" z="1908.8160400390625"/>
+  <position name="HCAL_Chimney_Sector_Plate_20" unit="mm" x="-178.73770141601562" y="6600.45068359375" z="2223.93603515625"/>
+  <position name="HCAL_Chimney_Sector_Plate_21" unit="mm" x="-130.14337158203125" y="6394.27490234375" z="2023.1495361328125"/>
+  <position name="HCAL_Chimney_Sector_Plate_22" unit="mm" x="-136.9420623779297" y="6423.12060546875" z="1800.864013671875"/>
+  <position name="HCAL_Chimney_Sector_Plate_23" unit="mm" x="-178.73770141601562" y="6600.45068359375" z="1692.9119873046875"/>
+  <position name="HCAL_Chimney_Sector_Plate_24" unit="mm" x="-136.9420623779297" y="6423.12060546875" z="1510.7039794921875"/>
+  <position name="HCAL_Chimney_Sector_Plate_25" unit="mm" x="-178.73770141601562" y="6600.45068359375" z="1402.751953125"/>
+  <position name="HCAL_Chimney_Sector_Plate_26" unit="mm" x="-138.43458557128906" y="6429.453125" z="1319.410888671875"/>
+  <position name="HCAL_Chimney_Sector_Plate_27" unit="mm" x="-178.73770141601562" y="6600.45068359375" z="960.3359985351562"/>
+  <position name="HCAL_Chimney_Sector_Plate_28" unit="mm" x="-178.73770141601562" y="6600.45068359375" z="301.3919982910156"/>
+  <position name="HCAL_Chimney_Sector_Plate_29" unit="mm" x="-77.57566833496094" y="6171.2412109375" z="737.5499877929688"/>
+  <position name="HCAL_Chimney_Sector_Plate_30" unit="mm" x="-64.52361297607422" y="6115.8642578125" z="1082.770751953125"/>
+  <position name="HCAL_Chimney_Sector_Plate_31" unit="mm" x="11.838549613952637" y="5791.87548828125" z="209.6999969482422"/>
+  <position name="HCAL_Chimney_Sector_Plate_32" unit="mm" x="11.838549613952637" y="5791.87548828125" z="-380.1000061035156"/>
+  <position name="HCAL_Chimney_Sector_Plate_33" unit="mm" x="-109.40292358398438" y="6306.27783203125" z="-85.19999694824219"/>
+  <position name="HCAL_Chimney_Sector_Plate_34" unit="mm" x="-77.57566833496094" y="6171.2412109375" z="447.1499938964844"/>
+  <position name="HCAL_Chimney_Sector_Plate_35" unit="mm" x="11.838549613952637" y="5791.87548828125" z="684.5999755859375"/>
+  <position name="HCAL_Chimney_Sector_Plate_36" unit="mm" x="11.838549613952637" y="5791.87548828125" z="975.0"/>
+  <position name="HCAL_Chimney_Sector_Plate_37" unit="mm" x="11.838549613952637" y="5791.87548828125" z="1173.5999755859375"/>
+  <position name="HCAL_Chimney_Sector_Plate_38" unit="mm" x="-178.73770141601562" y="6600.45068359375" z="-471.1199951171875"/>
+  <position name="HCAL_Chimney_Sector_Plate_39" unit="mm" x="-139.66708374023438" y="6434.68212890625" z="2205.308837890625"/>
+  <position name="HCAL_Chimney_Sector_Plate_40" unit="mm" x="-8.216437339782715" y="5876.96435546875" z="1566.4896240234375"/>
+  <position name="HCAL_Chimney_Sector_Plate_41" unit="mm" x="11.838549613952637" y="5791.87548828125" z="1500.0"/>
+  <position name="HCAL_Chimney_Sector_Plate_42" unit="mm" x="-12.887109756469727" y="5896.78125" z="1457.3922119140625"/>
+  <position name="HCAL_Chimney_Sector_Plate_43" unit="mm" x="-32.94209671020508" y="5981.87060546875" z="1523.8818359375"/>
+  <position name="HCAL_Chimney_Sector_Plate_44" unit="mm" x="-43.707618713378906" y="6027.54638671875" z="1684.15576171875"/>
+  <position name="HCAL_Chimney_Sector_Plate_45" unit="mm" x="-68.43328094482422" y="6132.4521484375" z="1641.548095703125"/>
+  <position name="HCAL_Chimney_Sector_Plate_46" unit="mm" x="-75.96235656738281" y="6164.396484375" z="1791.092041015625"/>
+  <position name="HCAL_Chimney_Sector_Plate_47" unit="mm" x="-100.68801879882812" y="6269.30224609375" z="1748.4842529296875"/>
+  <position name="HCAL_Chimney_Sector_Plate_48" unit="mm" x="-97.87144470214844" y="6257.35205078125" z="1863.7286376953125"/>
+  <position name="HCAL_Chimney_Sector_Plate_49" unit="mm" x="11.838549613952637" y="5791.87548828125" z="1417.199951171875"/>
+  <position name="HCAL_Chimney_Sector_Plate_50" unit="mm" x="-15.671515464782715" y="5908.5947265625" z="1346.8499755859375"/>
+  <position name="HCAL_Chimney_Sector_Plate_51" unit="mm" x="11.838549613952637" y="5791.87548828125" z="1314.300048828125"/>
+  <position name="HCAL_Chimney_Sector_Plate_52" unit="mm" x="-15.671515464782715" y="5908.5947265625" z="1243.949951171875"/>
+  <position name="HCAL_Chimney_Sector_Plate_53" unit="mm" x="-35.72650146484375" y="5993.68408203125" z="1413.339599609375"/>
+  <position name="HCAL_Chimney_Sector_Plate_54" unit="mm" x="-117.16486358642578" y="6339.2099609375" z="1814.412109375"/>
+  <position name="HCAL_Chimney_Sector_Plate_55" unit="mm" x="-104.09715270996094" y="6283.76611328125" z="1583.047119140625"/>
+  <position name="HCAL_Chimney_Sector_Plate_56" unit="mm" x="-115.8577880859375" y="6333.6640625" z="1908.640380859375"/>
+  <position name="HCAL_Chimney_Sector_Plate_57" unit="mm" x="-178.73770141601562" y="6600.45068359375" z="2830.464111328125"/>
+  <position name="HCAL_Chimney_Sector_Plate_58" unit="mm" x="-178.73770141601562" y="6600.45068359375" z="3013.919921875"/>
+  <position name="HCAL_Chimney_Sector_Plate_59" unit="mm" x="-130.14337158203125" y="6394.27490234375" z="2934.63720703125"/>
+  <position name="HCAL_Chimney_Sector_Plate_60" unit="mm" x="-130.14337158203125" y="6394.27490234375" z="2692.427978515625"/>
+  <position name="HCAL_Chimney_Sector_Plate_61" unit="mm" x="-97.87144470214844" y="6257.35205078125" z="2852.414306640625"/>
+  <position name="HCAL_Chimney_Sector_Plate_62" unit="mm" x="-97.87144470214844" y="6257.35205078125" z="3016.860107421875"/>
+  <position name="HCAL_Chimney_Sector_Plate_63" unit="mm" x="-133.2957763671875" y="6255.56982421875" z="2838.28759765625"/>
+  <position name="HCAL_Chimney_Sector_Plate_64" unit="mm" x="-97.87144470214844" y="6257.35205078125" z="2610.205078125"/>
+  <position name="HCAL_Chimney_Sector_Plate_65" unit="mm" x="-133.2957763671875" y="6255.56982421875" z="2599.08349609375"/>
+  <position name="HCAL_Chimney_Sector_Plate_66" unit="mm" x="-97.87144470214844" y="6257.35205078125" z="2317.870849609375"/>
+  <position name="HCAL_Chimney_Sector_Plate_67" unit="mm" x="-97.87144470214844" y="6257.35205078125" z="2092.746826171875"/>
+  <position name="HCAL_Chimney_Sector_Plate_68" unit="mm" x="-133.2957763671875" y="6255.56982421875" z="2312.843505859375"/>
+  <position name="HCAL_Chimney_Sector_Plate_69" unit="mm" x="-115.80730438232422" y="6256.44970703125" z="2959.677978515625"/>
+  <position name="HCAL_Chimney_Sector_Plate_70" unit="mm" x="-97.87144470214844" y="6257.35205078125" z="3120.0"/>
+  <position name="HCAL_Chimney_Sector_Plate_71" unit="mm" x="-133.2957763671875" y="6255.56982421875" z="3120.0"/>
+  <position name="HCAL_Chimney_Sector_Plate_72" unit="mm" x="-133.2957763671875" y="6255.56982421875" z="3016.998779296875"/>
+  <position name="HCAL_Chimney_Sector_Plate_73" unit="mm" x="-113.83824157714844" y="6256.548828125" z="2174.330810546875"/>
+  <position name="HCAL_Chimney_Sector_Plate_74" unit="mm" x="-133.2957763671875" y="6255.56982421875" z="1862.3551025390625"/>
+  <position name="HCAL_Chimney_Sector_Plate_75" unit="mm" x="-97.87144470214844" y="6257.35205078125" z="1953.552001953125"/>
+  <position name="HCAL_Chimney_Sector_Plate_76" unit="mm" x="-133.2957763671875" y="6255.56982421875" z="1956.80419921875"/>
+  <position name="HCAL_Chimney_Sector_Plate_77" unit="mm" x="-133.2957763671875" y="6255.56982421875" z="2093.51025390625"/>
+  <position name="HCAL_Chimney_Sector_Plate_78" unit="mm" x="-158.75631713867188" y="6354.82373046875" z="3120.0"/>
+  <position name="HCAL_Chimney_Sector_Plate_79" unit="mm" x="-126.22315216064453" y="6377.64208984375" z="3120.0"/>
+  <position name="HCAL_Chimney_Sector_Plate_80" unit="mm" x="-192.3452911376953" y="6485.765625" z="3120.0"/>
+  <position name="HCAL_Chimney_Sector_Plate_81" unit="mm" x="-156.37008666992188" y="6505.54931640625" z="3120.0"/>
+  <position name="HCAL_Chimney_Sector_Plate_82" unit="mm" x="-178.73770141601562" y="6600.45068359375" z="3120.0"/>
+  <position name="HCAL_Chimney_Sector_Plate_83" unit="mm" x="-219.31109619140625" y="6590.8876953125" z="3120.0"/>
+  <position name="HCAL_Chimney_Sector_Plate_84" unit="mm" x="-178.73770141601562" y="6600.45068359375" z="2585.85595703125"/>
+  <position name="HCAL_Chimney_Sector_Plate_85" unit="mm" x="-115.8577880859375" y="6333.6640625" z="3068.43017578125"/>
+  <position name="HCAL_Chimney_Sector_Plate_86" unit="mm" x="-141.29661560058594" y="6441.595703125" z="3020.839599609375"/>
+  <position name="HCAL_Chimney_Sector_Plate_87" unit="mm" x="-162.86483764648438" y="6533.10546875" z="3066.9599609375"/>
+  <position name="HCAL_Chimney_Sector_Plate_88" unit="mm" x="-69.91182708740234" y="6138.72509765625" z="1498.193359375"/>
+  <position name="HCAL_Chimney_Sector_Plate_89" unit="mm" x="-35.72650146484375" y="5993.68408203125" z="1310.4395751953125"/>
+  <position name="HCAL_Chimney_Sector_Plate_90" unit="mm" x="-124.3093490600586" y="6369.5224609375" z="1708.397216796875"/>
+  <position name="HCAL_Chimney_Sector_Plate_91" unit="mm" x="-39.480804443359375" y="6009.61279296875" z="-515.5499877929688"/>
+  <position name="HCAL_Chimney_Sector_Plate_92" unit="mm" x="-178.73770141601562" y="6600.45068359375" z="-1140.0479736328125"/>
+  <position name="HCAL_Chimney_Sector_Plate_93" unit="mm" x="-92.85124969482422" y="6236.05224609375" z="-738.12353515625"/>
+  <position name="HCAL_Chimney_Sector_Plate_94" unit="mm" x="-103.57998657226562" y="6281.572265625" z="-1050.9000244140625"/>
+  <position name="HCAL_Chimney_Sector_Plate_95" unit="mm" x="-16.438724517822266" y="5911.85009765625" z="-3038.345703125"/>
+  <position name="HCAL_Chimney_Sector_Plate_96" unit="mm" x="-16.438724517822266" y="5911.85009765625" z="-3120.0"/>
+  <position name="HCAL_Chimney_Sector_Plate_97" unit="mm" x="-37.894649505615234" y="6002.8828125" z="-3120.0"/>
+  <position name="HCAL_Chimney_Sector_Plate_98" unit="mm" x="-39.18693161010742" y="6008.36572265625" z="-2987.445068359375"/>
+  <position name="HCAL_Chimney_Sector_Plate_99" unit="mm" x="-16.438724517822266" y="5911.85009765625" z="-2764.383544921875"/>
+  <position name="HCAL_Chimney_Sector_Plate_100" unit="mm" x="-16.438724517822266" y="5911.85009765625" z="-2936.544677734375"/>
+  <position name="HCAL_Chimney_Sector_Plate_101" unit="mm" x="-58.2343635559082" y="6089.18017578125" z="-2850.464111328125"/>
+  <position name="HCAL_Chimney_Sector_Plate_102" unit="mm" x="-67.7580795288086" y="6129.58740234375" z="-2644.343994140625"/>
+  <position name="HCAL_Chimney_Sector_Plate_103" unit="mm" x="-16.438724517822266" y="5911.85009765625" z="-2534.83544921875"/>
+  <position name="HCAL_Chimney_Sector_Plate_104" unit="mm" x="-67.7580795288086" y="6129.58740234375" z="-2414.7958984375"/>
+  <position name="HCAL_Chimney_Sector_Plate_105" unit="mm" x="-16.438724517822266" y="5911.85009765625" z="-2243.626953125"/>
+  <position name="HCAL_Chimney_Sector_Plate_106" unit="mm" x="-67.7580795288086" y="6129.58740234375" z="-2123.58740234375"/>
+  <position name="HCAL_Chimney_Sector_Plate_107" unit="mm" x="-16.438724517822266" y="5911.85009765625" z="-2003.5477294921875"/>
+  <position name="HCAL_Chimney_Sector_Plate_108" unit="mm" x="-67.7580795288086" y="6129.58740234375" z="-1943.48974609375"/>
+  <position name="HCAL_Chimney_Sector_Plate_109" unit="mm" x="-16.438724517822266" y="5911.85009765625" z="-1823.4501953125"/>
+  <position name="HCAL_Chimney_Sector_Plate_110" unit="mm" x="-76.76525115966797" y="6167.802734375" z="-3120.0"/>
+  <position name="HCAL_Chimney_Sector_Plate_111" unit="mm" x="-95.67308044433594" y="6248.02490234375" z="-2979.3251953125"/>
+  <position name="HCAL_Chimney_Sector_Plate_112" unit="mm" x="-178.73770141601562" y="6600.45068359375" z="-3120.0"/>
+  <position name="HCAL_Chimney_Sector_Plate_113" unit="mm" x="-178.73770141601562" y="6600.45068359375" z="-3010.800048828125"/>
+  <position name="HCAL_Chimney_Sector_Plate_114" unit="mm" x="-134.7384490966797" y="6413.77099609375" z="-2979.3251953125"/>
+  <position name="HCAL_Chimney_Sector_Plate_115" unit="mm" x="-117.89462280273438" y="6342.30615234375" z="-2483.52001953125"/>
+  <position name="HCAL_Chimney_Sector_Plate_116" unit="mm" x="-136.9420623779297" y="6423.12060546875" z="-2745.912109375"/>
+  <position name="HCAL_Chimney_Sector_Plate_117" unit="mm" x="-178.73770141601562" y="6600.45068359375" z="-2333.135986328125"/>
+  <position name="HCAL_Chimney_Sector_Plate_118" unit="mm" x="-178.73770141601562" y="6600.45068359375" z="-1904.447998046875"/>
+  <position name="HCAL_Chimney_Sector_Plate_119" unit="mm" x="-178.73770141601562" y="6600.45068359375" z="-2857.919921875"/>
+  <position name="HCAL_Chimney_Sector_Plate_120" unit="mm" x="-151.22763061523438" y="6483.73095703125" z="-2934.360107421875"/>
+  <position name="HCAL_Chimney_Sector_Plate_121" unit="mm" x="-178.73770141601562" y="6600.45068359375" z="-2633.904052734375"/>
+  <position name="HCAL_Chimney_Sector_Plate_122" unit="mm" x="-34.425071716308594" y="5988.162109375" z="-1776.59423828125"/>
+  <position name="HCAL_Chimney_Sector_Plate_123" unit="mm" x="-16.438724517822266" y="5911.85009765625" z="-1687.4613037109375"/>
+  <position name="HCAL_Chimney_Sector_Plate_124" unit="mm" x="-34.425071716308594" y="5988.162109375" z="-1640.6053466796875"/>
+  <position name="HCAL_Chimney_Sector_Plate_125" unit="mm" x="-16.438724517822266" y="5911.85009765625" z="-1593.74951171875"/>
+  <position name="HCAL_Chimney_Sector_Plate_126" unit="mm" x="-38.99102783203125" y="6007.53466796875" z="-1551.5618896484375"/>
+  <position name="HCAL_Chimney_Sector_Plate_127" unit="mm" x="-21.00467872619629" y="5931.22265625" z="-1504.7059326171875"/>
+  <position name="HCAL_Chimney_Sector_Plate_128" unit="mm" x="-1.581844449043274" y="5848.8154296875" z="-1544.4935302734375"/>
+  <position name="HCAL_Chimney_Sector_Plate_129" unit="mm" x="-6.147799015045166" y="5868.18798828125" z="-1455.449951171875"/>
+  <position name="HCAL_Chimney_Sector_Plate_130" unit="mm" x="11.838549613952637" y="5791.87548828125" z="-1410.9000244140625"/>
+  <position name="HCAL_Chimney_Sector_Plate_131" unit="mm" x="11.838549613952637" y="5791.87548828125" z="-1500.0"/>
+  <position name="HCAL_Chimney_Sector_Plate_132" unit="mm" x="-6.147799015045166" y="5868.18798828125" z="-1329.449951171875"/>
+  <position name="HCAL_Chimney_Sector_Plate_133" unit="mm" x="11.838549613952637" y="5791.87548828125" z="-1284.9000244140625"/>
+  <position name="HCAL_Chimney_Sector_Plate_134" unit="mm" x="-21.00467872619629" y="5931.22265625" z="-1378.7059326171875"/>
+  <position name="HCAL_Chimney_Sector_Plate_135" unit="mm" x="-66.69699096679688" y="6125.08544921875" z="-1708.599853515625"/>
+  <position name="HCAL_Chimney_Sector_Plate_136" unit="mm" x="-71.26294708251953" y="6144.45751953125" z="-1619.5562744140625"/>
+  <position name="HCAL_Chimney_Sector_Plate_137" unit="mm" x="-38.99102783203125" y="6007.53466796875" z="-1425.5618896484375"/>
+  <position name="HCAL_Chimney_Sector_Plate_138" unit="mm" x="-108.37090301513672" y="6301.89892578125" z="-1705.0799560546875"/>
+  <position name="HCAL_Chimney_Sector_Plate_139" unit="mm" x="11.838549613952637" y="5791.87548828125" z="-816.9000244140625"/>
+  <position name="HCAL_Chimney_Sector_Plate_140" unit="mm" x="11.838549613952637" y="5791.87548828125" z="-1087.800048828125"/>
+  <position name="HCAL_Chimney_Sector_Plate_141" unit="mm" x="-39.480804443359375" y="6009.61279296875" z="-952.3499755859375"/>
+  <position name="HCAL_Chimney_Sector_Plate_142" unit="mm" x="-39.480804443359375" y="6009.61279296875" z="-1149.449951171875"/>
+  <position name="HCAL_Chimney_Sector_Plate_143" unit="mm" x="-108.37090301513672" y="6301.89892578125" z="-1339.416015625"/>
+  <position name="HCAL_Chimney_Sector_Plate_144" unit="mm" x="-178.73770141601562" y="6600.45068359375" z="-1538.7840576171875"/>
+  <position name="HCAL_Chimney_Sector_Plate_145" unit="mm" x="-65.0264892578125" y="6117.99755859375" z="-1496.280517578125"/>
+  <position name="HCAL_Chimney_Sector_Plate_146" unit="mm" x="-45.00990295410156" y="5911.400390625" z="-1593.4134521484375"/>
+  <position name="HCAL_Chimney_Sector_Plate_147" unit="mm" x="-45.00990295410156" y="5911.400390625" z="-1696.305419921875"/>
+  <position name="HCAL_Chimney_Sector_Plate_148" unit="mm" x="-45.00990295410156" y="5911.400390625" z="-3120.0"/>
+  <position name="HCAL_Chimney_Sector_Plate_149" unit="mm" x="-45.00990295410156" y="5911.400390625" z="-3011.6123046875"/>
+  <position name="HCAL_Chimney_Sector_Plate_150" unit="mm" x="-45.00990295410156" y="5911.400390625" z="-2861.0908203125"/>
+  <position name="HCAL_Chimney_Sector_Plate_151" unit="mm" x="-45.00990295410156" y="5911.400390625" z="-1861.0240478515625"/>
+  <position name="HCAL_Chimney_Sector_Plate_152" unit="mm" x="-45.00990295410156" y="5911.400390625" z="-2641.720458984375"/>
+  <position name="HCAL_Chimney_Sector_Plate_153" unit="mm" x="-45.00990295410156" y="5911.400390625" z="-2068.029296875"/>
+  <position name="HCAL_Chimney_Sector_Plate_154" unit="mm" x="-45.00990295410156" y="5911.400390625" z="-2351.821533203125"/>
+  <position name="HCAL_Chimney_Sector_Plate_155" unit="mm" x="-14.344938278198242" y="5791.857421875" z="-1500.0"/>
+  <position name="HCAL_Chimney_Sector_Plate_156" unit="mm" x="-29.266510009765625" y="5850.02685546875" z="-1545.4549560546875"/>
+  <position name="HCAL_Chimney_Sector_Plate_157" unit="mm" x="-197.24456787109375" y="6504.86474609375" z="-3120.0"/>
+  <position name="HCAL_Chimney_Sector_Plate_158" unit="mm" x="-219.31109619140625" y="6590.8876953125" z="-3120.0"/>
+  <position name="HCAL_Chimney_Sector_Plate_159" unit="mm" x="-75.66947937011719" y="6030.92236328125" z="-3120.0"/>
+  <position name="HCAL_Chimney_Sector_Plate_160" unit="mm" x="-117.17794036865234" y="6192.73681640625" z="1813.2559814453125"/>
+  <position name="HCAL_Chimney_Sector_Plate_161" unit="mm" x="-30.33193016052246" y="5854.1806640625" z="1548.7005615234375"/>
+  <position name="HCAL_Chimney_Sector_Plate_162" unit="mm" x="-14.344938278198242" y="5791.857421875" z="1500.0"/>
+  <position name="HCAL_Chimney_Sector_Plate_163" unit="mm" x="-90.99685668945312" y="6090.673828125" z="1733.5015869140625"/>
+  <position name="HCAL_Chimney_Sector_Plate_164" unit="mm" x="-61.47325897216797" y="5975.58056640625" z="1643.5650634765625"/>
+  <position name="HCAL_Chimney_Sector_Plate_165" unit="mm" x="-14.344938278198242" y="5791.857421875" z="-1412.4000244140625"/>
+  <position name="HCAL_Chimney_Sector_Plate_166" unit="mm" x="-14.344938278198242" y="5791.857421875" z="1416.5999755859375"/>
+  <position name="HCAL_Chimney_Sector_Plate_167" unit="mm" x="-4.527677059173584" y="5791.8642578125" z="-1354.49169921875"/>
+  <position name="HCAL_Chimney_Sector_Plate_168" unit="mm" x="-14.344938278198242" y="5791.857421875" z="1313.0999755859375"/>
+  <position name="HCAL_Chimney_Sector_Plate_169" unit="mm" x="1.3679349422454834" y="5791.8681640625" z="1256.508056640625"/>
+  <position name="HCAL_Chimney_Sector_Plate_170" unit="mm" x="-14.344938278198242" y="5791.857421875" z="-1286.699951171875"/>
+  <position name="HCAL_Chimney_Sector_Plate_171" unit="mm" x="-6.823631286621094" y="5791.86279296875" z="-1204.770263671875"/>
+  <position name="HCAL_Chimney_Sector_Plate_172" unit="mm" x="-14.344938278198242" y="5791.857421875" z="-1090.5"/>
+  <position name="HCAL_Chimney_Sector_Plate_173" unit="mm" x="-14.344938278198242" y="5791.857421875" z="-820.2000122070312"/>
+  <position name="HCAL_Chimney_Sector_Plate_174" unit="mm" x="-14.344938278198242" y="5791.857421875" z="972.5999755859375"/>
+  <position name="HCAL_Chimney_Sector_Plate_175" unit="mm" x="-14.344938278198242" y="5791.857421875" z="1172.0999755859375"/>
+  <position name="HCAL_Chimney_Sector_Plate_176" unit="mm" x="-14.344938278198242" y="5791.857421875" z="-385.5"/>
+  <position name="HCAL_Chimney_Sector_Plate_177" unit="mm" x="3.3921754360198975" y="5791.86962890625" z="1091.761962890625"/>
+  <position name="HCAL_Chimney_Sector_Plate_178" unit="mm" x="-219.31109619140625" y="6590.8876953125" z="2333.760009765625"/>
+  <position name="HCAL_Chimney_Sector_Plate_179" unit="mm" x="-219.31109619140625" y="6590.8876953125" z="2653.8720703125"/>
+  <position name="HCAL_Chimney_Sector_Plate_180" unit="mm" x="-175.55079650878906" y="6420.29443359375" z="3020.839599609375"/>
+  <position name="HCAL_Chimney_Sector_Plate_181" unit="mm" x="-154.4232940673828" y="6337.93212890625" z="3018.919189453125"/>
+  <position name="HCAL_Chimney_Sector_Plate_182" unit="mm" x="-219.31109619140625" y="6590.8876953125" z="-3035.760009765625"/>
+  <position name="HCAL_Chimney_Sector_Plate_183" unit="mm" x="-219.31109619140625" y="6590.8876953125" z="2876.01611328125"/>
+  <position name="HCAL_Chimney_Sector_Plate_184" unit="mm" x="-96.3590316772461" y="6111.5771484375" z="-2979.3251953125"/>
+  <position name="HCAL_Chimney_Sector_Plate_185" unit="mm" x="-137.720703125" y="6272.81982421875" z="-2979.3251953125"/>
+  <position name="HCAL_Chimney_Sector_Plate_186" unit="mm" x="-74.8062973022461" y="6027.55712890625" z="-2936.3515625"/>
+  <position name="HCAL_Chimney_Sector_Plate_187" unit="mm" x="-74.8062973022461" y="6027.55712890625" z="-2716.981201171875"/>
+  <position name="HCAL_Chimney_Sector_Plate_188" unit="mm" x="-100.59435272216797" y="6128.087890625" z="-2209.925537109375"/>
+  <position name="HCAL_Chimney_Sector_Plate_189" unit="mm" x="-79.96390533447266" y="6047.66357421875" z="-1778.6646728515625"/>
+  <position name="HCAL_Chimney_Sector_Plate_190" unit="mm" x="-62.20193862915039" y="5978.4208984375" z="-1644.859375"/>
+  <position name="HCAL_Chimney_Sector_Plate_191" unit="mm" x="-52.0082893371582" y="5938.6826171875" z="-1490.369140625"/>
+  <position name="HCAL_Chimney_Sector_Plate_192" unit="mm" x="-29.266510009765625" y="5850.02685546875" z="-1457.85498046875"/>
+  <position name="HCAL_Chimney_Sector_Plate_193" unit="mm" x="-38.98372268676758" y="5887.908203125" z="-1349.550048828125"/>
+  <position name="HCAL_Chimney_Sector_Plate_194" unit="mm" x="-38.98372268676758" y="5887.908203125" z="-1153.3499755859375"/>
+  <position name="HCAL_Chimney_Sector_Plate_195" unit="mm" x="-59.614166259765625" y="5968.3330078125" z="1213.3499755859375"/>
+  <position name="HCAL_Chimney_Sector_Plate_196" unit="mm" x="-30.33193016052246" y="5854.1806640625" z="1465.300537109375"/>
+  <position name="HCAL_Chimney_Sector_Plate_197" unit="mm" x="-66.99815368652344" y="5997.1181640625" z="1483.9664306640625"/>
+  <position name="HCAL_Chimney_Sector_Plate_198" unit="mm" x="-96.5217514038086" y="6112.21142578125" z="1573.9029541015625"/>
+  <position name="HCAL_Chimney_Sector_Plate_199" unit="mm" x="-69.20032501220703" y="6005.703125" z="-1541.8150634765625"/>
+  <position name="HCAL_Chimney_Sector_Plate_200" unit="mm" x="-219.31109619140625" y="6590.8876953125" z="3023.904052734375"/>
+  <position name="HCAL_Chimney_Sector_Plate_201" unit="mm" x="-194.67230224609375" y="6494.8369140625" z="-2982.719970703125"/>
+  <position name="HCAL_Chimney_Sector_Plate_202" unit="mm" x="-110.90957641601562" y="6168.30029296875" z="-2496.77099609375"/>
+  <position name="HCAL_Chimney_Sector_Plate_203" unit="mm" x="-90.27912902832031" y="6087.87548828125" z="-1964.526611328125"/>
+  <position name="HCAL_Chimney_Sector_Plate_204" unit="mm" x="-69.92938995361328" y="6008.54541015625" z="-955.3499755859375"/>
+  <position name="HCAL_Chimney_Sector_Plate_205" unit="mm" x="-125.03221130371094" y="6223.35546875" z="-602.8499755859375"/>
+  <position name="HCAL_Chimney_Sector_Plate_206" unit="mm" x="-38.98372268676758" y="5887.908203125" z="1364.8499755859375"/>
+  <position name="HCAL_Chimney_Sector_Plate_207" unit="mm" x="-144.34347534179688" y="6298.6376953125" z="1747.1396484375"/>
+  <position name="HCAL_Chimney_Sector_Plate_208" unit="mm" x="-163.82464599609375" y="6374.58203125" z="1794.3641357421875"/>
+  <position name="HCAL_Chimney_Sector_Plate_209" unit="mm" x="-219.31109619140625" y="6590.8876953125" z="-2929.679931640625"/>
+  <position name="HCAL_Chimney_Sector_Plate_210" unit="mm" x="-194.67230224609375" y="6494.8369140625" z="-2799.887939453125"/>
+  <position name="HCAL_Chimney_Sector_Plate_211" unit="mm" x="-219.31109619140625" y="6590.8876953125" z="-2746.847900390625"/>
+  <position name="HCAL_Chimney_Sector_Plate_212" unit="mm" x="-143.09620666503906" y="6293.775390625" z="-2315.35205078125"/>
+  <position name="HCAL_Chimney_Sector_Plate_213" unit="mm" x="-199.82992553710938" y="6514.943359375" z="3071.951904296875"/>
+  <position name="HCAL_Chimney_Sector_Plate_214" unit="mm" x="-106.26350402832031" y="6150.1884765625" z="-2848.1533203125"/>
+  <position name="HCAL_Chimney_Sector_Plate_215" unit="mm" x="-143.09620666503906" y="6293.775390625" z="-1917.239990234375"/>
+  <position name="HCAL_Chimney_Sector_Plate_216" unit="mm" x="-143.09620666503906" y="6293.775390625" z="-1127.8800048828125"/>
+  <position name="HCAL_Chimney_Sector_Plate_217" unit="mm" x="-219.31109619140625" y="6590.8876953125" z="-2133.4560546875"/>
+  <position name="HCAL_Chimney_Sector_Plate_218" unit="mm" x="-219.31109619140625" y="6590.8876953125" z="-2497.248046875"/>
+  <position name="HCAL_Chimney_Sector_Plate_219" unit="mm" x="-219.31109619140625" y="6590.8876953125" z="-1735.343994140625"/>
+  <position name="HCAL_Chimney_Sector_Plate_220" unit="mm" x="-143.09620666503906" y="6293.775390625" z="-1570.2960205078125"/>
+  <position name="HCAL_Chimney_Sector_Plate_221" unit="mm" x="-219.31109619140625" y="6590.8876953125" z="-1388.4000244140625"/>
+  <position name="HCAL_Chimney_Sector_Plate_222" unit="mm" x="-219.31109619140625" y="6590.8876953125" z="-945.9840087890625"/>
+  <position name="HCAL_Chimney_Sector_Plate_223" unit="mm" x="-143.09620666503906" y="6293.775390625" z="-2564.951904296875"/>
+  <position name="HCAL_Chimney_Sector_Plate_224" unit="mm" x="-68.5869140625" y="6003.31201171875" z="-1385.3670654296875"/>
+  <position name="HCAL_Chimney_Sector_Plate_225" unit="mm" x="-68.5869140625" y="6003.31201171875" z="-1189.1671142578125"/>
+  <position name="HCAL_Chimney_Sector_Plate_226" unit="mm" x="-101.91307067871094" y="6133.22900390625" z="-1645.4744873046875"/>
+  <position name="HCAL_Chimney_Sector_Plate_227" unit="mm" x="-88.997314453125" y="6082.87890625" z="1376.6602783203125"/>
+  <position name="HCAL_Chimney_Sector_Plate_228" unit="mm" x="-138.291015625" y="6275.04296875" z="-2746.149658203125"/>
+  <position name="HCAL_Chimney_Sector_Plate_229" unit="mm" x="-129.7821044921875" y="6241.8720703125" z="801.986572265625"/>
+  <position name="HCAL_Chimney_Sector_Plate_230" unit="mm" x="-88.81440734863281" y="6082.16552734375" z="-1176.817626953125"/>
+  <position name="P-LV_HCAL_Chimney_Sector_Plate1" unit="mm" x="139.02417759293212" y="2.441494154082193"/>
+  <rotation name="R-LV_HCAL_Chimney_Sector_Plate1" unit="deg" z="-2.012224777709849"/>
+  </define>
+  <materials>
+  <material name="G4_AIR">
+    <D type="density" unit="g/cm3" value="0.0012"/>
+    <fraction n="0.754" ref="N"/>
+    <fraction n="0.234" ref="O"/>
+    <fraction n="0.012" ref="Ar"/>
+  </material>
+  </materials>
+
+<solids>
+    <box name="WorldBox" x="1000" y="1000" z="1000" lunit="mm"/>
+  <tessellated name="HCAL_Chimney_Sector_Plate">
+      <triangular vertex1="HCAL_Chimney_Sector_Plate_0" vertex2="HCAL_Chimney_Sector_Plate_1" vertex3="HCAL_Chimney_Sector_Plate_2" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_0" vertex2="HCAL_Chimney_Sector_Plate_2" vertex3="HCAL_Chimney_Sector_Plate_3" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_2" vertex2="HCAL_Chimney_Sector_Plate_1" vertex3="HCAL_Chimney_Sector_Plate_4" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_2" vertex2="HCAL_Chimney_Sector_Plate_4" vertex3="HCAL_Chimney_Sector_Plate_5" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_5" vertex2="HCAL_Chimney_Sector_Plate_4" vertex3="HCAL_Chimney_Sector_Plate_6" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_7" vertex2="HCAL_Chimney_Sector_Plate_8" vertex3="HCAL_Chimney_Sector_Plate_9" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_7" vertex2="HCAL_Chimney_Sector_Plate_9" vertex3="HCAL_Chimney_Sector_Plate_10" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_11" vertex2="HCAL_Chimney_Sector_Plate_12" vertex3="HCAL_Chimney_Sector_Plate_13" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_11" vertex2="HCAL_Chimney_Sector_Plate_13" vertex3="HCAL_Chimney_Sector_Plate_14" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_15" vertex2="HCAL_Chimney_Sector_Plate_16" vertex3="HCAL_Chimney_Sector_Plate_17" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_17" vertex2="HCAL_Chimney_Sector_Plate_16" vertex3="HCAL_Chimney_Sector_Plate_18" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_19" vertex2="HCAL_Chimney_Sector_Plate_20" vertex3="HCAL_Chimney_Sector_Plate_21" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_19" vertex2="HCAL_Chimney_Sector_Plate_21" vertex3="HCAL_Chimney_Sector_Plate_22" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_23" vertex2="HCAL_Chimney_Sector_Plate_19" vertex3="HCAL_Chimney_Sector_Plate_22" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_23" vertex2="HCAL_Chimney_Sector_Plate_22" vertex3="HCAL_Chimney_Sector_Plate_24" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_25" vertex2="HCAL_Chimney_Sector_Plate_23" vertex3="HCAL_Chimney_Sector_Plate_24" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_25" vertex2="HCAL_Chimney_Sector_Plate_24" vertex3="HCAL_Chimney_Sector_Plate_26" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_27" vertex2="HCAL_Chimney_Sector_Plate_25" vertex3="HCAL_Chimney_Sector_Plate_26" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_28" vertex2="HCAL_Chimney_Sector_Plate_27" vertex3="HCAL_Chimney_Sector_Plate_29" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_29" vertex2="HCAL_Chimney_Sector_Plate_27" vertex3="HCAL_Chimney_Sector_Plate_30" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_31" vertex2="HCAL_Chimney_Sector_Plate_32" vertex3="HCAL_Chimney_Sector_Plate_33" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_31" vertex2="HCAL_Chimney_Sector_Plate_33" vertex3="HCAL_Chimney_Sector_Plate_34" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_35" vertex2="HCAL_Chimney_Sector_Plate_31" vertex3="HCAL_Chimney_Sector_Plate_34" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_35" vertex2="HCAL_Chimney_Sector_Plate_34" vertex3="HCAL_Chimney_Sector_Plate_29" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_36" vertex2="HCAL_Chimney_Sector_Plate_35" vertex3="HCAL_Chimney_Sector_Plate_29" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_36" vertex2="HCAL_Chimney_Sector_Plate_29" vertex3="HCAL_Chimney_Sector_Plate_30" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_37" vertex2="HCAL_Chimney_Sector_Plate_36" vertex3="HCAL_Chimney_Sector_Plate_30" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_33" vertex2="HCAL_Chimney_Sector_Plate_32" vertex3="HCAL_Chimney_Sector_Plate_38" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_38" vertex2="HCAL_Chimney_Sector_Plate_28" vertex3="HCAL_Chimney_Sector_Plate_33" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_30" vertex2="HCAL_Chimney_Sector_Plate_27" vertex3="HCAL_Chimney_Sector_Plate_26" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_33" vertex2="HCAL_Chimney_Sector_Plate_28" vertex3="HCAL_Chimney_Sector_Plate_34" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_21" vertex2="HCAL_Chimney_Sector_Plate_20" vertex3="HCAL_Chimney_Sector_Plate_39" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_40" vertex2="HCAL_Chimney_Sector_Plate_41" vertex3="HCAL_Chimney_Sector_Plate_42" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_40" vertex2="HCAL_Chimney_Sector_Plate_42" vertex3="HCAL_Chimney_Sector_Plate_43" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_44" vertex2="HCAL_Chimney_Sector_Plate_40" vertex3="HCAL_Chimney_Sector_Plate_43" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_44" vertex2="HCAL_Chimney_Sector_Plate_43" vertex3="HCAL_Chimney_Sector_Plate_45" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_46" vertex2="HCAL_Chimney_Sector_Plate_44" vertex3="HCAL_Chimney_Sector_Plate_45" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_46" vertex2="HCAL_Chimney_Sector_Plate_45" vertex3="HCAL_Chimney_Sector_Plate_47" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_48" vertex2="HCAL_Chimney_Sector_Plate_46" vertex3="HCAL_Chimney_Sector_Plate_47" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_41" vertex2="HCAL_Chimney_Sector_Plate_49" vertex3="HCAL_Chimney_Sector_Plate_42" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_42" vertex2="HCAL_Chimney_Sector_Plate_49" vertex3="HCAL_Chimney_Sector_Plate_50" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_51" vertex2="HCAL_Chimney_Sector_Plate_37" vertex3="HCAL_Chimney_Sector_Plate_52" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_51" vertex2="HCAL_Chimney_Sector_Plate_52" vertex3="HCAL_Chimney_Sector_Plate_50" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_49" vertex2="HCAL_Chimney_Sector_Plate_51" vertex3="HCAL_Chimney_Sector_Plate_50" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_42" vertex2="HCAL_Chimney_Sector_Plate_50" vertex3="HCAL_Chimney_Sector_Plate_53" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_42" vertex2="HCAL_Chimney_Sector_Plate_53" vertex3="HCAL_Chimney_Sector_Plate_43" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_48" vertex2="HCAL_Chimney_Sector_Plate_47" vertex3="HCAL_Chimney_Sector_Plate_54" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_47" vertex2="HCAL_Chimney_Sector_Plate_45" vertex3="HCAL_Chimney_Sector_Plate_55" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_48" vertex2="HCAL_Chimney_Sector_Plate_54" vertex3="HCAL_Chimney_Sector_Plate_56" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_57" vertex2="HCAL_Chimney_Sector_Plate_58" vertex3="HCAL_Chimney_Sector_Plate_59" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_57" vertex2="HCAL_Chimney_Sector_Plate_59" vertex3="HCAL_Chimney_Sector_Plate_60" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_61" vertex2="HCAL_Chimney_Sector_Plate_62" vertex3="HCAL_Chimney_Sector_Plate_63" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_64" vertex2="HCAL_Chimney_Sector_Plate_61" vertex3="HCAL_Chimney_Sector_Plate_63" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_64" vertex2="HCAL_Chimney_Sector_Plate_63" vertex3="HCAL_Chimney_Sector_Plate_65" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_66" vertex2="HCAL_Chimney_Sector_Plate_64" vertex3="HCAL_Chimney_Sector_Plate_65" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_67" vertex2="HCAL_Chimney_Sector_Plate_66" vertex3="HCAL_Chimney_Sector_Plate_68" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_68" vertex2="HCAL_Chimney_Sector_Plate_66" vertex3="HCAL_Chimney_Sector_Plate_65" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_63" vertex2="HCAL_Chimney_Sector_Plate_62" vertex3="HCAL_Chimney_Sector_Plate_69" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_62" vertex2="HCAL_Chimney_Sector_Plate_70" vertex3="HCAL_Chimney_Sector_Plate_71" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_71" vertex2="HCAL_Chimney_Sector_Plate_72" vertex3="HCAL_Chimney_Sector_Plate_62" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_62" vertex2="HCAL_Chimney_Sector_Plate_72" vertex3="HCAL_Chimney_Sector_Plate_69" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_72" vertex2="HCAL_Chimney_Sector_Plate_63" vertex3="HCAL_Chimney_Sector_Plate_69" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_67" vertex2="HCAL_Chimney_Sector_Plate_68" vertex3="HCAL_Chimney_Sector_Plate_73" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_74" vertex2="HCAL_Chimney_Sector_Plate_48" vertex3="HCAL_Chimney_Sector_Plate_75" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_76" vertex2="HCAL_Chimney_Sector_Plate_74" vertex3="HCAL_Chimney_Sector_Plate_75" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_75" vertex2="HCAL_Chimney_Sector_Plate_67" vertex3="HCAL_Chimney_Sector_Plate_76" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_77" vertex2="HCAL_Chimney_Sector_Plate_76" vertex3="HCAL_Chimney_Sector_Plate_67" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_77" vertex2="HCAL_Chimney_Sector_Plate_67" vertex3="HCAL_Chimney_Sector_Plate_73" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_68" vertex2="HCAL_Chimney_Sector_Plate_77" vertex3="HCAL_Chimney_Sector_Plate_73" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_71" vertex2="HCAL_Chimney_Sector_Plate_70" vertex3="HCAL_Chimney_Sector_Plate_78" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_70" vertex2="HCAL_Chimney_Sector_Plate_79" vertex3="HCAL_Chimney_Sector_Plate_78" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_80" vertex2="HCAL_Chimney_Sector_Plate_78" vertex3="HCAL_Chimney_Sector_Plate_79" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_81" vertex2="HCAL_Chimney_Sector_Plate_82" vertex3="HCAL_Chimney_Sector_Plate_83" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_83" vertex2="HCAL_Chimney_Sector_Plate_80" vertex3="HCAL_Chimney_Sector_Plate_81" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_79" vertex2="HCAL_Chimney_Sector_Plate_81" vertex3="HCAL_Chimney_Sector_Plate_80" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_62" vertex2="HCAL_Chimney_Sector_Plate_61" vertex3="HCAL_Chimney_Sector_Plate_59" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_61" vertex2="HCAL_Chimney_Sector_Plate_64" vertex3="HCAL_Chimney_Sector_Plate_60" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_61" vertex2="HCAL_Chimney_Sector_Plate_60" vertex3="HCAL_Chimney_Sector_Plate_59" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_64" vertex2="HCAL_Chimney_Sector_Plate_66" vertex3="HCAL_Chimney_Sector_Plate_84" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_66" vertex2="HCAL_Chimney_Sector_Plate_67" vertex3="HCAL_Chimney_Sector_Plate_39" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_75" vertex2="HCAL_Chimney_Sector_Plate_48" vertex3="HCAL_Chimney_Sector_Plate_56" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_70" vertex2="HCAL_Chimney_Sector_Plate_62" vertex3="HCAL_Chimney_Sector_Plate_85" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_84" vertex2="HCAL_Chimney_Sector_Plate_66" vertex3="HCAL_Chimney_Sector_Plate_39" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_67" vertex2="HCAL_Chimney_Sector_Plate_75" vertex3="HCAL_Chimney_Sector_Plate_21" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_21" vertex2="HCAL_Chimney_Sector_Plate_75" vertex3="HCAL_Chimney_Sector_Plate_56" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_67" vertex2="HCAL_Chimney_Sector_Plate_21" vertex3="HCAL_Chimney_Sector_Plate_39" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_79" vertex2="HCAL_Chimney_Sector_Plate_70" vertex3="HCAL_Chimney_Sector_Plate_85" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_81" vertex2="HCAL_Chimney_Sector_Plate_79" vertex3="HCAL_Chimney_Sector_Plate_86" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_82" vertex2="HCAL_Chimney_Sector_Plate_81" vertex3="HCAL_Chimney_Sector_Plate_87" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_58" vertex2="HCAL_Chimney_Sector_Plate_82" vertex3="HCAL_Chimney_Sector_Plate_87" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_62" vertex2="HCAL_Chimney_Sector_Plate_59" vertex3="HCAL_Chimney_Sector_Plate_85" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_86" vertex2="HCAL_Chimney_Sector_Plate_79" vertex3="HCAL_Chimney_Sector_Plate_85" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_84" vertex2="HCAL_Chimney_Sector_Plate_57" vertex3="HCAL_Chimney_Sector_Plate_60" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_20" vertex2="HCAL_Chimney_Sector_Plate_84" vertex3="HCAL_Chimney_Sector_Plate_39" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_81" vertex2="HCAL_Chimney_Sector_Plate_86" vertex3="HCAL_Chimney_Sector_Plate_87" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_45" vertex2="HCAL_Chimney_Sector_Plate_43" vertex3="HCAL_Chimney_Sector_Plate_88" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_55" vertex2="HCAL_Chimney_Sector_Plate_45" vertex3="HCAL_Chimney_Sector_Plate_88" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_43" vertex2="HCAL_Chimney_Sector_Plate_53" vertex3="HCAL_Chimney_Sector_Plate_88" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_50" vertex2="HCAL_Chimney_Sector_Plate_52" vertex3="HCAL_Chimney_Sector_Plate_89" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_50" vertex2="HCAL_Chimney_Sector_Plate_89" vertex3="HCAL_Chimney_Sector_Plate_53" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_54" vertex2="HCAL_Chimney_Sector_Plate_47" vertex3="HCAL_Chimney_Sector_Plate_90" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_47" vertex2="HCAL_Chimney_Sector_Plate_55" vertex3="HCAL_Chimney_Sector_Plate_90" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_37" vertex2="HCAL_Chimney_Sector_Plate_30" vertex3="HCAL_Chimney_Sector_Plate_52" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_30" vertex2="HCAL_Chimney_Sector_Plate_26" vertex3="HCAL_Chimney_Sector_Plate_88" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_58" vertex2="HCAL_Chimney_Sector_Plate_87" vertex3="HCAL_Chimney_Sector_Plate_59" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_21" vertex2="HCAL_Chimney_Sector_Plate_56" vertex3="HCAL_Chimney_Sector_Plate_22" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_28" vertex2="HCAL_Chimney_Sector_Plate_29" vertex3="HCAL_Chimney_Sector_Plate_34" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_26" vertex2="HCAL_Chimney_Sector_Plate_24" vertex3="HCAL_Chimney_Sector_Plate_88" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_56" vertex2="HCAL_Chimney_Sector_Plate_54" vertex3="HCAL_Chimney_Sector_Plate_22" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_64" vertex2="HCAL_Chimney_Sector_Plate_84" vertex3="HCAL_Chimney_Sector_Plate_60" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_22" vertex2="HCAL_Chimney_Sector_Plate_54" vertex3="HCAL_Chimney_Sector_Plate_90" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_52" vertex2="HCAL_Chimney_Sector_Plate_30" vertex3="HCAL_Chimney_Sector_Plate_89" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_90" vertex2="HCAL_Chimney_Sector_Plate_55" vertex3="HCAL_Chimney_Sector_Plate_24" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_89" vertex2="HCAL_Chimney_Sector_Plate_30" vertex3="HCAL_Chimney_Sector_Plate_88" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_86" vertex2="HCAL_Chimney_Sector_Plate_85" vertex3="HCAL_Chimney_Sector_Plate_59" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_88" vertex2="HCAL_Chimney_Sector_Plate_24" vertex3="HCAL_Chimney_Sector_Plate_55" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_38" vertex2="HCAL_Chimney_Sector_Plate_32" vertex3="HCAL_Chimney_Sector_Plate_91" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_92" vertex2="HCAL_Chimney_Sector_Plate_38" vertex3="HCAL_Chimney_Sector_Plate_93" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_92" vertex2="HCAL_Chimney_Sector_Plate_93" vertex3="HCAL_Chimney_Sector_Plate_94" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_95" vertex2="HCAL_Chimney_Sector_Plate_96" vertex3="HCAL_Chimney_Sector_Plate_97" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_95" vertex2="HCAL_Chimney_Sector_Plate_97" vertex3="HCAL_Chimney_Sector_Plate_98" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_99" vertex2="HCAL_Chimney_Sector_Plate_100" vertex3="HCAL_Chimney_Sector_Plate_101" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_101" vertex2="HCAL_Chimney_Sector_Plate_100" vertex3="HCAL_Chimney_Sector_Plate_98" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_100" vertex2="HCAL_Chimney_Sector_Plate_95" vertex3="HCAL_Chimney_Sector_Plate_98" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_99" vertex2="HCAL_Chimney_Sector_Plate_101" vertex3="HCAL_Chimney_Sector_Plate_102" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_103" vertex2="HCAL_Chimney_Sector_Plate_99" vertex3="HCAL_Chimney_Sector_Plate_102" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_103" vertex2="HCAL_Chimney_Sector_Plate_102" vertex3="HCAL_Chimney_Sector_Plate_104" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_105" vertex2="HCAL_Chimney_Sector_Plate_103" vertex3="HCAL_Chimney_Sector_Plate_104" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_105" vertex2="HCAL_Chimney_Sector_Plate_104" vertex3="HCAL_Chimney_Sector_Plate_106" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_107" vertex2="HCAL_Chimney_Sector_Plate_105" vertex3="HCAL_Chimney_Sector_Plate_106" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_107" vertex2="HCAL_Chimney_Sector_Plate_106" vertex3="HCAL_Chimney_Sector_Plate_108" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_107" vertex2="HCAL_Chimney_Sector_Plate_108" vertex3="HCAL_Chimney_Sector_Plate_109" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_97" vertex2="HCAL_Chimney_Sector_Plate_110" vertex3="HCAL_Chimney_Sector_Plate_98" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_98" vertex2="HCAL_Chimney_Sector_Plate_110" vertex3="HCAL_Chimney_Sector_Plate_111" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_18" vertex2="HCAL_Chimney_Sector_Plate_112" vertex3="HCAL_Chimney_Sector_Plate_113" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_18" vertex2="HCAL_Chimney_Sector_Plate_113" vertex3="HCAL_Chimney_Sector_Plate_114" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_17" vertex2="HCAL_Chimney_Sector_Plate_18" vertex3="HCAL_Chimney_Sector_Plate_114" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_17" vertex2="HCAL_Chimney_Sector_Plate_114" vertex3="HCAL_Chimney_Sector_Plate_111" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_110" vertex2="HCAL_Chimney_Sector_Plate_17" vertex3="HCAL_Chimney_Sector_Plate_111" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_101" vertex2="HCAL_Chimney_Sector_Plate_98" vertex3="HCAL_Chimney_Sector_Plate_111" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_104" vertex2="HCAL_Chimney_Sector_Plate_102" vertex3="HCAL_Chimney_Sector_Plate_115" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_115" vertex2="HCAL_Chimney_Sector_Plate_102" vertex3="HCAL_Chimney_Sector_Plate_116" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_117" vertex2="HCAL_Chimney_Sector_Plate_118" vertex3="HCAL_Chimney_Sector_Plate_106" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_117" vertex2="HCAL_Chimney_Sector_Plate_106" vertex3="HCAL_Chimney_Sector_Plate_115" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_113" vertex2="HCAL_Chimney_Sector_Plate_119" vertex3="HCAL_Chimney_Sector_Plate_120" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_120" vertex2="HCAL_Chimney_Sector_Plate_119" vertex3="HCAL_Chimney_Sector_Plate_116" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_119" vertex2="HCAL_Chimney_Sector_Plate_121" vertex3="HCAL_Chimney_Sector_Plate_116" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_116" vertex2="HCAL_Chimney_Sector_Plate_121" vertex3="HCAL_Chimney_Sector_Plate_115" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_121" vertex2="HCAL_Chimney_Sector_Plate_117" vertex3="HCAL_Chimney_Sector_Plate_115" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_116" vertex2="HCAL_Chimney_Sector_Plate_102" vertex3="HCAL_Chimney_Sector_Plate_101" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_101" vertex2="HCAL_Chimney_Sector_Plate_111" vertex3="HCAL_Chimney_Sector_Plate_116" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_109" vertex2="HCAL_Chimney_Sector_Plate_108" vertex3="HCAL_Chimney_Sector_Plate_122" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_123" vertex2="HCAL_Chimney_Sector_Plate_109" vertex3="HCAL_Chimney_Sector_Plate_122" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_123" vertex2="HCAL_Chimney_Sector_Plate_122" vertex3="HCAL_Chimney_Sector_Plate_124" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_125" vertex2="HCAL_Chimney_Sector_Plate_123" vertex3="HCAL_Chimney_Sector_Plate_124" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_125" vertex2="HCAL_Chimney_Sector_Plate_124" vertex3="HCAL_Chimney_Sector_Plate_126" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_125" vertex2="HCAL_Chimney_Sector_Plate_126" vertex3="HCAL_Chimney_Sector_Plate_127" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_128" vertex2="HCAL_Chimney_Sector_Plate_125" vertex3="HCAL_Chimney_Sector_Plate_127" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_128" vertex2="HCAL_Chimney_Sector_Plate_127" vertex3="HCAL_Chimney_Sector_Plate_129" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_130" vertex2="HCAL_Chimney_Sector_Plate_131" vertex3="HCAL_Chimney_Sector_Plate_129" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_130" vertex2="HCAL_Chimney_Sector_Plate_129" vertex3="HCAL_Chimney_Sector_Plate_132" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_133" vertex2="HCAL_Chimney_Sector_Plate_130" vertex3="HCAL_Chimney_Sector_Plate_132" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_131" vertex2="HCAL_Chimney_Sector_Plate_128" vertex3="HCAL_Chimney_Sector_Plate_129" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_129" vertex2="HCAL_Chimney_Sector_Plate_127" vertex3="HCAL_Chimney_Sector_Plate_134" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_129" vertex2="HCAL_Chimney_Sector_Plate_134" vertex3="HCAL_Chimney_Sector_Plate_132" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_124" vertex2="HCAL_Chimney_Sector_Plate_122" vertex3="HCAL_Chimney_Sector_Plate_135" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_126" vertex2="HCAL_Chimney_Sector_Plate_124" vertex3="HCAL_Chimney_Sector_Plate_136" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_124" vertex2="HCAL_Chimney_Sector_Plate_135" vertex3="HCAL_Chimney_Sector_Plate_136" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_127" vertex2="HCAL_Chimney_Sector_Plate_126" vertex3="HCAL_Chimney_Sector_Plate_137" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_127" vertex2="HCAL_Chimney_Sector_Plate_137" vertex3="HCAL_Chimney_Sector_Plate_134" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_122" vertex2="HCAL_Chimney_Sector_Plate_108" vertex3="HCAL_Chimney_Sector_Plate_135" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_104" vertex2="HCAL_Chimney_Sector_Plate_115" vertex3="HCAL_Chimney_Sector_Plate_106" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_135" vertex2="HCAL_Chimney_Sector_Plate_108" vertex3="HCAL_Chimney_Sector_Plate_138" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_139" vertex2="HCAL_Chimney_Sector_Plate_140" vertex3="HCAL_Chimney_Sector_Plate_141" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_139" vertex2="HCAL_Chimney_Sector_Plate_141" vertex3="HCAL_Chimney_Sector_Plate_91" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_32" vertex2="HCAL_Chimney_Sector_Plate_139" vertex3="HCAL_Chimney_Sector_Plate_91" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_141" vertex2="HCAL_Chimney_Sector_Plate_140" vertex3="HCAL_Chimney_Sector_Plate_142" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_140" vertex2="HCAL_Chimney_Sector_Plate_133" vertex3="HCAL_Chimney_Sector_Plate_142" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_141" vertex2="HCAL_Chimney_Sector_Plate_142" vertex3="HCAL_Chimney_Sector_Plate_94" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_94" vertex2="HCAL_Chimney_Sector_Plate_142" vertex3="HCAL_Chimney_Sector_Plate_143" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_144" vertex2="HCAL_Chimney_Sector_Plate_92" vertex3="HCAL_Chimney_Sector_Plate_143" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_144" vertex2="HCAL_Chimney_Sector_Plate_143" vertex3="HCAL_Chimney_Sector_Plate_138" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_118" vertex2="HCAL_Chimney_Sector_Plate_144" vertex3="HCAL_Chimney_Sector_Plate_138" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_118" vertex2="HCAL_Chimney_Sector_Plate_138" vertex3="HCAL_Chimney_Sector_Plate_108" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_143" vertex2="HCAL_Chimney_Sector_Plate_92" vertex3="HCAL_Chimney_Sector_Plate_94" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_114" vertex2="HCAL_Chimney_Sector_Plate_113" vertex3="HCAL_Chimney_Sector_Plate_120" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_141" vertex2="HCAL_Chimney_Sector_Plate_94" vertex3="HCAL_Chimney_Sector_Plate_93" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_143" vertex2="HCAL_Chimney_Sector_Plate_142" vertex3="HCAL_Chimney_Sector_Plate_137" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_91" vertex2="HCAL_Chimney_Sector_Plate_141" vertex3="HCAL_Chimney_Sector_Plate_93" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_93" vertex2="HCAL_Chimney_Sector_Plate_38" vertex3="HCAL_Chimney_Sector_Plate_91" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_142" vertex2="HCAL_Chimney_Sector_Plate_133" vertex3="HCAL_Chimney_Sector_Plate_132" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_135" vertex2="HCAL_Chimney_Sector_Plate_138" vertex3="HCAL_Chimney_Sector_Plate_136" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_126" vertex2="HCAL_Chimney_Sector_Plate_136" vertex3="HCAL_Chimney_Sector_Plate_145" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_106" vertex2="HCAL_Chimney_Sector_Plate_118" vertex3="HCAL_Chimney_Sector_Plate_108" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_114" vertex2="HCAL_Chimney_Sector_Plate_120" vertex3="HCAL_Chimney_Sector_Plate_116" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_111" vertex2="HCAL_Chimney_Sector_Plate_114" vertex3="HCAL_Chimney_Sector_Plate_116" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_126" vertex2="HCAL_Chimney_Sector_Plate_145" vertex3="HCAL_Chimney_Sector_Plate_137" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_143" vertex2="HCAL_Chimney_Sector_Plate_137" vertex3="HCAL_Chimney_Sector_Plate_145" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_142" vertex2="HCAL_Chimney_Sector_Plate_132" vertex3="HCAL_Chimney_Sector_Plate_134" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_138" vertex2="HCAL_Chimney_Sector_Plate_143" vertex3="HCAL_Chimney_Sector_Plate_145" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_138" vertex2="HCAL_Chimney_Sector_Plate_145" vertex3="HCAL_Chimney_Sector_Plate_136" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_137" vertex2="HCAL_Chimney_Sector_Plate_142" vertex3="HCAL_Chimney_Sector_Plate_134" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_24" vertex2="HCAL_Chimney_Sector_Plate_22" vertex3="HCAL_Chimney_Sector_Plate_90" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_53" vertex2="HCAL_Chimney_Sector_Plate_89" vertex3="HCAL_Chimney_Sector_Plate_88" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_87" vertex2="HCAL_Chimney_Sector_Plate_86" vertex3="HCAL_Chimney_Sector_Plate_59" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_125" vertex2="HCAL_Chimney_Sector_Plate_146" vertex3="HCAL_Chimney_Sector_Plate_123" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_146" vertex2="HCAL_Chimney_Sector_Plate_147" vertex3="HCAL_Chimney_Sector_Plate_123" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_148" vertex2="HCAL_Chimney_Sector_Plate_96" vertex3="HCAL_Chimney_Sector_Plate_95" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_149" vertex2="HCAL_Chimney_Sector_Plate_148" vertex3="HCAL_Chimney_Sector_Plate_95" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_149" vertex2="HCAL_Chimney_Sector_Plate_95" vertex3="HCAL_Chimney_Sector_Plate_100" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_149" vertex2="HCAL_Chimney_Sector_Plate_100" vertex3="HCAL_Chimney_Sector_Plate_150" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_123" vertex2="HCAL_Chimney_Sector_Plate_147" vertex3="HCAL_Chimney_Sector_Plate_109" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_109" vertex2="HCAL_Chimney_Sector_Plate_147" vertex3="HCAL_Chimney_Sector_Plate_151" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_109" vertex2="HCAL_Chimney_Sector_Plate_151" vertex3="HCAL_Chimney_Sector_Plate_107" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_100" vertex2="HCAL_Chimney_Sector_Plate_99" vertex3="HCAL_Chimney_Sector_Plate_150" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_152" vertex2="HCAL_Chimney_Sector_Plate_150" vertex3="HCAL_Chimney_Sector_Plate_99" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_151" vertex2="HCAL_Chimney_Sector_Plate_153" vertex3="HCAL_Chimney_Sector_Plate_107" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_107" vertex2="HCAL_Chimney_Sector_Plate_153" vertex3="HCAL_Chimney_Sector_Plate_105" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_99" vertex2="HCAL_Chimney_Sector_Plate_103" vertex3="HCAL_Chimney_Sector_Plate_152" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_154" vertex2="HCAL_Chimney_Sector_Plate_152" vertex3="HCAL_Chimney_Sector_Plate_103" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_153" vertex2="HCAL_Chimney_Sector_Plate_154" vertex3="HCAL_Chimney_Sector_Plate_105" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_105" vertex2="HCAL_Chimney_Sector_Plate_154" vertex3="HCAL_Chimney_Sector_Plate_103" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_128" vertex2="HCAL_Chimney_Sector_Plate_131" vertex3="HCAL_Chimney_Sector_Plate_155" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_125" vertex2="HCAL_Chimney_Sector_Plate_128" vertex3="HCAL_Chimney_Sector_Plate_156" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_156" vertex2="HCAL_Chimney_Sector_Plate_128" vertex3="HCAL_Chimney_Sector_Plate_155" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_125" vertex2="HCAL_Chimney_Sector_Plate_156" vertex3="HCAL_Chimney_Sector_Plate_146" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_112" vertex2="HCAL_Chimney_Sector_Plate_18" vertex3="HCAL_Chimney_Sector_Plate_157" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_157" vertex2="HCAL_Chimney_Sector_Plate_158" vertex3="HCAL_Chimney_Sector_Plate_112" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_96" vertex2="HCAL_Chimney_Sector_Plate_148" vertex3="HCAL_Chimney_Sector_Plate_97" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_148" vertex2="HCAL_Chimney_Sector_Plate_159" vertex3="HCAL_Chimney_Sector_Plate_97" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_157" vertex2="HCAL_Chimney_Sector_Plate_18" vertex3="HCAL_Chimney_Sector_Plate_16" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_15" vertex2="HCAL_Chimney_Sector_Plate_17" vertex3="HCAL_Chimney_Sector_Plate_110" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_159" vertex2="HCAL_Chimney_Sector_Plate_15" vertex3="HCAL_Chimney_Sector_Plate_110" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_159" vertex2="HCAL_Chimney_Sector_Plate_110" vertex3="HCAL_Chimney_Sector_Plate_97" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_48" vertex2="HCAL_Chimney_Sector_Plate_74" vertex3="HCAL_Chimney_Sector_Plate_160" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_46" vertex2="HCAL_Chimney_Sector_Plate_48" vertex3="HCAL_Chimney_Sector_Plate_160" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_41" vertex2="HCAL_Chimney_Sector_Plate_40" vertex3="HCAL_Chimney_Sector_Plate_161" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_161" vertex2="HCAL_Chimney_Sector_Plate_162" vertex3="HCAL_Chimney_Sector_Plate_41" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_160" vertex2="HCAL_Chimney_Sector_Plate_163" vertex3="HCAL_Chimney_Sector_Plate_46" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_44" vertex2="HCAL_Chimney_Sector_Plate_46" vertex3="HCAL_Chimney_Sector_Plate_163" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_163" vertex2="HCAL_Chimney_Sector_Plate_164" vertex3="HCAL_Chimney_Sector_Plate_44" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_161" vertex2="HCAL_Chimney_Sector_Plate_40" vertex3="HCAL_Chimney_Sector_Plate_164" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_40" vertex2="HCAL_Chimney_Sector_Plate_44" vertex3="HCAL_Chimney_Sector_Plate_164" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_155" vertex2="HCAL_Chimney_Sector_Plate_131" vertex3="HCAL_Chimney_Sector_Plate_165" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_131" vertex2="HCAL_Chimney_Sector_Plate_130" vertex3="HCAL_Chimney_Sector_Plate_165" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_49" vertex2="HCAL_Chimney_Sector_Plate_41" vertex3="HCAL_Chimney_Sector_Plate_162" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_162" vertex2="HCAL_Chimney_Sector_Plate_166" vertex3="HCAL_Chimney_Sector_Plate_49" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_51" vertex2="HCAL_Chimney_Sector_Plate_49" vertex3="HCAL_Chimney_Sector_Plate_166" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_165" vertex2="HCAL_Chimney_Sector_Plate_130" vertex3="HCAL_Chimney_Sector_Plate_167" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_166" vertex2="HCAL_Chimney_Sector_Plate_168" vertex3="HCAL_Chimney_Sector_Plate_51" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_51" vertex2="HCAL_Chimney_Sector_Plate_168" vertex3="HCAL_Chimney_Sector_Plate_169" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_130" vertex2="HCAL_Chimney_Sector_Plate_133" vertex3="HCAL_Chimney_Sector_Plate_170" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_170" vertex2="HCAL_Chimney_Sector_Plate_133" vertex3="HCAL_Chimney_Sector_Plate_171" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_133" vertex2="HCAL_Chimney_Sector_Plate_140" vertex3="HCAL_Chimney_Sector_Plate_172" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_140" vertex2="HCAL_Chimney_Sector_Plate_139" vertex3="HCAL_Chimney_Sector_Plate_173" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_170" vertex2="HCAL_Chimney_Sector_Plate_165" vertex3="HCAL_Chimney_Sector_Plate_167" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_173" vertex2="HCAL_Chimney_Sector_Plate_172" vertex3="HCAL_Chimney_Sector_Plate_140" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_35" vertex2="HCAL_Chimney_Sector_Plate_36" vertex3="HCAL_Chimney_Sector_Plate_174" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_175" vertex2="HCAL_Chimney_Sector_Plate_174" vertex3="HCAL_Chimney_Sector_Plate_36" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_37" vertex2="HCAL_Chimney_Sector_Plate_51" vertex3="HCAL_Chimney_Sector_Plate_169" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_174" vertex2="HCAL_Chimney_Sector_Plate_14" vertex3="HCAL_Chimney_Sector_Plate_35" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_173" vertex2="HCAL_Chimney_Sector_Plate_139" vertex3="HCAL_Chimney_Sector_Plate_176" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_139" vertex2="HCAL_Chimney_Sector_Plate_32" vertex3="HCAL_Chimney_Sector_Plate_176" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_31" vertex2="HCAL_Chimney_Sector_Plate_35" vertex3="HCAL_Chimney_Sector_Plate_14" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_36" vertex2="HCAL_Chimney_Sector_Plate_37" vertex3="HCAL_Chimney_Sector_Plate_177" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_168" vertex2="HCAL_Chimney_Sector_Plate_175" vertex3="HCAL_Chimney_Sector_Plate_37" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_37" vertex2="HCAL_Chimney_Sector_Plate_175" vertex3="HCAL_Chimney_Sector_Plate_177" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_14" vertex2="HCAL_Chimney_Sector_Plate_13" vertex3="HCAL_Chimney_Sector_Plate_31" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_133" vertex2="HCAL_Chimney_Sector_Plate_172" vertex3="HCAL_Chimney_Sector_Plate_171" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_172" vertex2="HCAL_Chimney_Sector_Plate_170" vertex3="HCAL_Chimney_Sector_Plate_171" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_176" vertex2="HCAL_Chimney_Sector_Plate_32" vertex3="HCAL_Chimney_Sector_Plate_13" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_175" vertex2="HCAL_Chimney_Sector_Plate_36" vertex3="HCAL_Chimney_Sector_Plate_177" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_32" vertex2="HCAL_Chimney_Sector_Plate_31" vertex3="HCAL_Chimney_Sector_Plate_13" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_130" vertex2="HCAL_Chimney_Sector_Plate_170" vertex3="HCAL_Chimney_Sector_Plate_167" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_168" vertex2="HCAL_Chimney_Sector_Plate_37" vertex3="HCAL_Chimney_Sector_Plate_169" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_74" vertex2="HCAL_Chimney_Sector_Plate_76" vertex3="HCAL_Chimney_Sector_Plate_9" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_76" vertex2="HCAL_Chimney_Sector_Plate_77" vertex3="HCAL_Chimney_Sector_Plate_10" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_76" vertex2="HCAL_Chimney_Sector_Plate_10" vertex3="HCAL_Chimney_Sector_Plate_9" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_68" vertex2="HCAL_Chimney_Sector_Plate_65" vertex3="HCAL_Chimney_Sector_Plate_178" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_65" vertex2="HCAL_Chimney_Sector_Plate_63" vertex3="HCAL_Chimney_Sector_Plate_179" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_78" vertex2="HCAL_Chimney_Sector_Plate_80" vertex3="HCAL_Chimney_Sector_Plate_180" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_71" vertex2="HCAL_Chimney_Sector_Plate_78" vertex3="HCAL_Chimney_Sector_Plate_181" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_72" vertex2="HCAL_Chimney_Sector_Plate_71" vertex3="HCAL_Chimney_Sector_Plate_181" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_78" vertex2="HCAL_Chimney_Sector_Plate_180" vertex3="HCAL_Chimney_Sector_Plate_181" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_182" vertex2="HCAL_Chimney_Sector_Plate_158" vertex3="HCAL_Chimney_Sector_Plate_157" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_179" vertex2="HCAL_Chimney_Sector_Plate_178" vertex3="HCAL_Chimney_Sector_Plate_65" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_183" vertex2="HCAL_Chimney_Sector_Plate_179" vertex3="HCAL_Chimney_Sector_Plate_63" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_159" vertex2="HCAL_Chimney_Sector_Plate_148" vertex3="HCAL_Chimney_Sector_Plate_149" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_15" vertex2="HCAL_Chimney_Sector_Plate_159" vertex3="HCAL_Chimney_Sector_Plate_184" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_16" vertex2="HCAL_Chimney_Sector_Plate_15" vertex3="HCAL_Chimney_Sector_Plate_185" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_15" vertex2="HCAL_Chimney_Sector_Plate_184" vertex3="HCAL_Chimney_Sector_Plate_185" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_149" vertex2="HCAL_Chimney_Sector_Plate_150" vertex3="HCAL_Chimney_Sector_Plate_186" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_150" vertex2="HCAL_Chimney_Sector_Plate_152" vertex3="HCAL_Chimney_Sector_Plate_187" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_150" vertex2="HCAL_Chimney_Sector_Plate_187" vertex3="HCAL_Chimney_Sector_Plate_186" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_154" vertex2="HCAL_Chimney_Sector_Plate_153" vertex3="HCAL_Chimney_Sector_Plate_188" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_151" vertex2="HCAL_Chimney_Sector_Plate_147" vertex3="HCAL_Chimney_Sector_Plate_189" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_147" vertex2="HCAL_Chimney_Sector_Plate_146" vertex3="HCAL_Chimney_Sector_Plate_190" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_146" vertex2="HCAL_Chimney_Sector_Plate_156" vertex3="HCAL_Chimney_Sector_Plate_191" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_156" vertex2="HCAL_Chimney_Sector_Plate_155" vertex3="HCAL_Chimney_Sector_Plate_192" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_155" vertex2="HCAL_Chimney_Sector_Plate_165" vertex3="HCAL_Chimney_Sector_Plate_192" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_165" vertex2="HCAL_Chimney_Sector_Plate_170" vertex3="HCAL_Chimney_Sector_Plate_193" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_170" vertex2="HCAL_Chimney_Sector_Plate_172" vertex3="HCAL_Chimney_Sector_Plate_194" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_170" vertex2="HCAL_Chimney_Sector_Plate_194" vertex3="HCAL_Chimney_Sector_Plate_193" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_176" vertex2="HCAL_Chimney_Sector_Plate_13" vertex3="HCAL_Chimney_Sector_Plate_12" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_174" vertex2="HCAL_Chimney_Sector_Plate_175" vertex3="HCAL_Chimney_Sector_Plate_5" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_175" vertex2="HCAL_Chimney_Sector_Plate_168" vertex3="HCAL_Chimney_Sector_Plate_195" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_175" vertex2="HCAL_Chimney_Sector_Plate_195" vertex3="HCAL_Chimney_Sector_Plate_5" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_166" vertex2="HCAL_Chimney_Sector_Plate_162" vertex3="HCAL_Chimney_Sector_Plate_196" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_162" vertex2="HCAL_Chimney_Sector_Plate_161" vertex3="HCAL_Chimney_Sector_Plate_196" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_161" vertex2="HCAL_Chimney_Sector_Plate_164" vertex3="HCAL_Chimney_Sector_Plate_197" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_164" vertex2="HCAL_Chimney_Sector_Plate_163" vertex3="HCAL_Chimney_Sector_Plate_198" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_164" vertex2="HCAL_Chimney_Sector_Plate_198" vertex3="HCAL_Chimney_Sector_Plate_197" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_163" vertex2="HCAL_Chimney_Sector_Plate_160" vertex3="HCAL_Chimney_Sector_Plate_3" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_163" vertex2="HCAL_Chimney_Sector_Plate_3" vertex3="HCAL_Chimney_Sector_Plate_198" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_189" vertex2="HCAL_Chimney_Sector_Plate_147" vertex3="HCAL_Chimney_Sector_Plate_190" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_183" vertex2="HCAL_Chimney_Sector_Plate_63" vertex3="HCAL_Chimney_Sector_Plate_180" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_191" vertex2="HCAL_Chimney_Sector_Plate_156" vertex3="HCAL_Chimney_Sector_Plate_192" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_190" vertex2="HCAL_Chimney_Sector_Plate_146" vertex3="HCAL_Chimney_Sector_Plate_199" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_146" vertex2="HCAL_Chimney_Sector_Plate_191" vertex3="HCAL_Chimney_Sector_Plate_199" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_200" vertex2="HCAL_Chimney_Sector_Plate_183" vertex3="HCAL_Chimney_Sector_Plate_180" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_184" vertex2="HCAL_Chimney_Sector_Plate_159" vertex3="HCAL_Chimney_Sector_Plate_186" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_16" vertex2="HCAL_Chimney_Sector_Plate_185" vertex3="HCAL_Chimney_Sector_Plate_201" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_157" vertex2="HCAL_Chimney_Sector_Plate_16" vertex3="HCAL_Chimney_Sector_Plate_201" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_152" vertex2="HCAL_Chimney_Sector_Plate_154" vertex3="HCAL_Chimney_Sector_Plate_202" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_153" vertex2="HCAL_Chimney_Sector_Plate_151" vertex3="HCAL_Chimney_Sector_Plate_203" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_165" vertex2="HCAL_Chimney_Sector_Plate_193" vertex3="HCAL_Chimney_Sector_Plate_192" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_172" vertex2="HCAL_Chimney_Sector_Plate_173" vertex3="HCAL_Chimney_Sector_Plate_204" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_173" vertex2="HCAL_Chimney_Sector_Plate_176" vertex3="HCAL_Chimney_Sector_Plate_205" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_149" vertex2="HCAL_Chimney_Sector_Plate_186" vertex3="HCAL_Chimney_Sector_Plate_159" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_14" vertex2="HCAL_Chimney_Sector_Plate_174" vertex3="HCAL_Chimney_Sector_Plate_6" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_196" vertex2="HCAL_Chimney_Sector_Plate_161" vertex3="HCAL_Chimney_Sector_Plate_197" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_168" vertex2="HCAL_Chimney_Sector_Plate_166" vertex3="HCAL_Chimney_Sector_Plate_206" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_3" vertex2="HCAL_Chimney_Sector_Plate_160" vertex3="HCAL_Chimney_Sector_Plate_207" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_160" vertex2="HCAL_Chimney_Sector_Plate_74" vertex3="HCAL_Chimney_Sector_Plate_207" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_74" vertex2="HCAL_Chimney_Sector_Plate_9" vertex3="HCAL_Chimney_Sector_Plate_208" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_74" vertex2="HCAL_Chimney_Sector_Plate_208" vertex3="HCAL_Chimney_Sector_Plate_207" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_203" vertex2="HCAL_Chimney_Sector_Plate_151" vertex3="HCAL_Chimney_Sector_Plate_189" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_6" vertex2="HCAL_Chimney_Sector_Plate_174" vertex3="HCAL_Chimney_Sector_Plate_5" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_157" vertex2="HCAL_Chimney_Sector_Plate_201" vertex3="HCAL_Chimney_Sector_Plate_182" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_209" vertex2="HCAL_Chimney_Sector_Plate_182" vertex3="HCAL_Chimney_Sector_Plate_201" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_209" vertex2="HCAL_Chimney_Sector_Plate_201" vertex3="HCAL_Chimney_Sector_Plate_210" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_211" vertex2="HCAL_Chimney_Sector_Plate_209" vertex3="HCAL_Chimney_Sector_Plate_210" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_202" vertex2="HCAL_Chimney_Sector_Plate_154" vertex3="HCAL_Chimney_Sector_Plate_188" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_153" vertex2="HCAL_Chimney_Sector_Plate_203" vertex3="HCAL_Chimney_Sector_Plate_188" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_173" vertex2="HCAL_Chimney_Sector_Plate_205" vertex3="HCAL_Chimney_Sector_Plate_204" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_206" vertex2="HCAL_Chimney_Sector_Plate_166" vertex3="HCAL_Chimney_Sector_Plate_196" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_77" vertex2="HCAL_Chimney_Sector_Plate_68" vertex3="HCAL_Chimney_Sector_Plate_178" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_202" vertex2="HCAL_Chimney_Sector_Plate_188" vertex3="HCAL_Chimney_Sector_Plate_212" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_63" vertex2="HCAL_Chimney_Sector_Plate_72" vertex3="HCAL_Chimney_Sector_Plate_181" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_210" vertex2="HCAL_Chimney_Sector_Plate_201" vertex3="HCAL_Chimney_Sector_Plate_185" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_80" vertex2="HCAL_Chimney_Sector_Plate_83" vertex3="HCAL_Chimney_Sector_Plate_213" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_83" vertex2="HCAL_Chimney_Sector_Plate_200" vertex3="HCAL_Chimney_Sector_Plate_213" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_191" vertex2="HCAL_Chimney_Sector_Plate_192" vertex3="HCAL_Chimney_Sector_Plate_193" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_184" vertex2="HCAL_Chimney_Sector_Plate_186" vertex3="HCAL_Chimney_Sector_Plate_214" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_185" vertex2="HCAL_Chimney_Sector_Plate_184" vertex3="HCAL_Chimney_Sector_Plate_214" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_186" vertex2="HCAL_Chimney_Sector_Plate_187" vertex3="HCAL_Chimney_Sector_Plate_214" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_152" vertex2="HCAL_Chimney_Sector_Plate_202" vertex3="HCAL_Chimney_Sector_Plate_187" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_188" vertex2="HCAL_Chimney_Sector_Plate_203" vertex3="HCAL_Chimney_Sector_Plate_215" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_204" vertex2="HCAL_Chimney_Sector_Plate_205" vertex3="HCAL_Chimney_Sector_Plate_216" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_217" vertex2="HCAL_Chimney_Sector_Plate_218" vertex3="HCAL_Chimney_Sector_Plate_212" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_217" vertex2="HCAL_Chimney_Sector_Plate_212" vertex3="HCAL_Chimney_Sector_Plate_215" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_219" vertex2="HCAL_Chimney_Sector_Plate_217" vertex3="HCAL_Chimney_Sector_Plate_215" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_219" vertex2="HCAL_Chimney_Sector_Plate_215" vertex3="HCAL_Chimney_Sector_Plate_220" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_221" vertex2="HCAL_Chimney_Sector_Plate_219" vertex3="HCAL_Chimney_Sector_Plate_220" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_221" vertex2="HCAL_Chimney_Sector_Plate_220" vertex3="HCAL_Chimney_Sector_Plate_216" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_222" vertex2="HCAL_Chimney_Sector_Plate_221" vertex3="HCAL_Chimney_Sector_Plate_216" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_212" vertex2="HCAL_Chimney_Sector_Plate_218" vertex3="HCAL_Chimney_Sector_Plate_223" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_218" vertex2="HCAL_Chimney_Sector_Plate_211" vertex3="HCAL_Chimney_Sector_Plate_223" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_222" vertex2="HCAL_Chimney_Sector_Plate_216" vertex3="HCAL_Chimney_Sector_Plate_205" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_12" vertex2="HCAL_Chimney_Sector_Plate_222" vertex3="HCAL_Chimney_Sector_Plate_205" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_12" vertex2="HCAL_Chimney_Sector_Plate_205" vertex3="HCAL_Chimney_Sector_Plate_176" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_215" vertex2="HCAL_Chimney_Sector_Plate_203" vertex3="HCAL_Chimney_Sector_Plate_189" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_178" vertex2="HCAL_Chimney_Sector_Plate_7" vertex3="HCAL_Chimney_Sector_Plate_10" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_191" vertex2="HCAL_Chimney_Sector_Plate_193" vertex3="HCAL_Chimney_Sector_Plate_224" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_206" vertex2="HCAL_Chimney_Sector_Plate_196" vertex3="HCAL_Chimney_Sector_Plate_197" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_193" vertex2="HCAL_Chimney_Sector_Plate_194" vertex3="HCAL_Chimney_Sector_Plate_225" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_193" vertex2="HCAL_Chimney_Sector_Plate_225" vertex3="HCAL_Chimney_Sector_Plate_224" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_195" vertex2="HCAL_Chimney_Sector_Plate_168" vertex3="HCAL_Chimney_Sector_Plate_206" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_180" vertex2="HCAL_Chimney_Sector_Plate_80" vertex3="HCAL_Chimney_Sector_Plate_213" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_172" vertex2="HCAL_Chimney_Sector_Plate_204" vertex3="HCAL_Chimney_Sector_Plate_194" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_189" vertex2="HCAL_Chimney_Sector_Plate_190" vertex3="HCAL_Chimney_Sector_Plate_226" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_4" vertex2="HCAL_Chimney_Sector_Plate_1" vertex3="HCAL_Chimney_Sector_Plate_11" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_195" vertex2="HCAL_Chimney_Sector_Plate_206" vertex3="HCAL_Chimney_Sector_Plate_227" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_212" vertex2="HCAL_Chimney_Sector_Plate_188" vertex3="HCAL_Chimney_Sector_Plate_215" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_212" vertex2="HCAL_Chimney_Sector_Plate_223" vertex3="HCAL_Chimney_Sector_Plate_202" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_210" vertex2="HCAL_Chimney_Sector_Plate_185" vertex3="HCAL_Chimney_Sector_Plate_228" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_228" vertex2="HCAL_Chimney_Sector_Plate_185" vertex3="HCAL_Chimney_Sector_Plate_214" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_216" vertex2="HCAL_Chimney_Sector_Plate_220" vertex3="HCAL_Chimney_Sector_Plate_224" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_214" vertex2="HCAL_Chimney_Sector_Plate_187" vertex3="HCAL_Chimney_Sector_Plate_228" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_199" vertex2="HCAL_Chimney_Sector_Plate_191" vertex3="HCAL_Chimney_Sector_Plate_224" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_213" vertex2="HCAL_Chimney_Sector_Plate_200" vertex3="HCAL_Chimney_Sector_Plate_180" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_204" vertex2="HCAL_Chimney_Sector_Plate_216" vertex3="HCAL_Chimney_Sector_Plate_194" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_187" vertex2="HCAL_Chimney_Sector_Plate_202" vertex3="HCAL_Chimney_Sector_Plate_228" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_206" vertex2="HCAL_Chimney_Sector_Plate_197" vertex3="HCAL_Chimney_Sector_Plate_227" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_190" vertex2="HCAL_Chimney_Sector_Plate_199" vertex3="HCAL_Chimney_Sector_Plate_226" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_227" vertex2="HCAL_Chimney_Sector_Plate_197" vertex3="HCAL_Chimney_Sector_Plate_198" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_2" vertex2="HCAL_Chimney_Sector_Plate_5" vertex3="HCAL_Chimney_Sector_Plate_227" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_180" vertex2="HCAL_Chimney_Sector_Plate_63" vertex3="HCAL_Chimney_Sector_Plate_181" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_202" vertex2="HCAL_Chimney_Sector_Plate_223" vertex3="HCAL_Chimney_Sector_Plate_228" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_211" vertex2="HCAL_Chimney_Sector_Plate_210" vertex3="HCAL_Chimney_Sector_Plate_223" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_3" vertex2="HCAL_Chimney_Sector_Plate_2" vertex3="HCAL_Chimney_Sector_Plate_227" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_9" vertex2="HCAL_Chimney_Sector_Plate_8" vertex3="HCAL_Chimney_Sector_Plate_208" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_8" vertex2="HCAL_Chimney_Sector_Plate_0" vertex3="HCAL_Chimney_Sector_Plate_3" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_11" vertex2="HCAL_Chimney_Sector_Plate_14" vertex3="HCAL_Chimney_Sector_Plate_229" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_77" vertex2="HCAL_Chimney_Sector_Plate_178" vertex3="HCAL_Chimney_Sector_Plate_10" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_223" vertex2="HCAL_Chimney_Sector_Plate_210" vertex3="HCAL_Chimney_Sector_Plate_228" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_224" vertex2="HCAL_Chimney_Sector_Plate_220" vertex3="HCAL_Chimney_Sector_Plate_226" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_220" vertex2="HCAL_Chimney_Sector_Plate_215" vertex3="HCAL_Chimney_Sector_Plate_189" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_229" vertex2="HCAL_Chimney_Sector_Plate_14" vertex3="HCAL_Chimney_Sector_Plate_6" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_229" vertex2="HCAL_Chimney_Sector_Plate_6" vertex3="HCAL_Chimney_Sector_Plate_4" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_198" vertex2="HCAL_Chimney_Sector_Plate_3" vertex3="HCAL_Chimney_Sector_Plate_227" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_208" vertex2="HCAL_Chimney_Sector_Plate_8" vertex3="HCAL_Chimney_Sector_Plate_207" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_8" vertex2="HCAL_Chimney_Sector_Plate_3" vertex3="HCAL_Chimney_Sector_Plate_207" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_220" vertex2="HCAL_Chimney_Sector_Plate_189" vertex3="HCAL_Chimney_Sector_Plate_226" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_199" vertex2="HCAL_Chimney_Sector_Plate_224" vertex3="HCAL_Chimney_Sector_Plate_226" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_11" vertex2="HCAL_Chimney_Sector_Plate_229" vertex3="HCAL_Chimney_Sector_Plate_4" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_216" vertex2="HCAL_Chimney_Sector_Plate_224" vertex3="HCAL_Chimney_Sector_Plate_230" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_230" vertex2="HCAL_Chimney_Sector_Plate_224" vertex3="HCAL_Chimney_Sector_Plate_225" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_5" vertex2="HCAL_Chimney_Sector_Plate_195" vertex3="HCAL_Chimney_Sector_Plate_227" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_225" vertex2="HCAL_Chimney_Sector_Plate_194" vertex3="HCAL_Chimney_Sector_Plate_230" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_194" vertex2="HCAL_Chimney_Sector_Plate_216" vertex3="HCAL_Chimney_Sector_Plate_230" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_158" vertex2="HCAL_Chimney_Sector_Plate_182" vertex3="HCAL_Chimney_Sector_Plate_112" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_112" vertex2="HCAL_Chimney_Sector_Plate_182" vertex3="HCAL_Chimney_Sector_Plate_113" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_113" vertex2="HCAL_Chimney_Sector_Plate_182" vertex3="HCAL_Chimney_Sector_Plate_209" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_200" vertex2="HCAL_Chimney_Sector_Plate_83" vertex3="HCAL_Chimney_Sector_Plate_82" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_82" vertex2="HCAL_Chimney_Sector_Plate_58" vertex3="HCAL_Chimney_Sector_Plate_200" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_113" vertex2="HCAL_Chimney_Sector_Plate_209" vertex3="HCAL_Chimney_Sector_Plate_119" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_119" vertex2="HCAL_Chimney_Sector_Plate_209" vertex3="HCAL_Chimney_Sector_Plate_211" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_183" vertex2="HCAL_Chimney_Sector_Plate_200" vertex3="HCAL_Chimney_Sector_Plate_58" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_183" vertex2="HCAL_Chimney_Sector_Plate_58" vertex3="HCAL_Chimney_Sector_Plate_57" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_179" vertex2="HCAL_Chimney_Sector_Plate_183" vertex3="HCAL_Chimney_Sector_Plate_57" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_19" vertex2="HCAL_Chimney_Sector_Plate_23" vertex3="HCAL_Chimney_Sector_Plate_8" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_121" vertex2="HCAL_Chimney_Sector_Plate_119" vertex3="HCAL_Chimney_Sector_Plate_211" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_211" vertex2="HCAL_Chimney_Sector_Plate_218" vertex3="HCAL_Chimney_Sector_Plate_121" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_8" vertex2="HCAL_Chimney_Sector_Plate_7" vertex3="HCAL_Chimney_Sector_Plate_19" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_179" vertex2="HCAL_Chimney_Sector_Plate_57" vertex3="HCAL_Chimney_Sector_Plate_84" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_121" vertex2="HCAL_Chimney_Sector_Plate_218" vertex3="HCAL_Chimney_Sector_Plate_117" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_218" vertex2="HCAL_Chimney_Sector_Plate_217" vertex3="HCAL_Chimney_Sector_Plate_117" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_219" vertex2="HCAL_Chimney_Sector_Plate_221" vertex3="HCAL_Chimney_Sector_Plate_144" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_0" vertex2="HCAL_Chimney_Sector_Plate_8" vertex3="HCAL_Chimney_Sector_Plate_23" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_7" vertex2="HCAL_Chimney_Sector_Plate_178" vertex3="HCAL_Chimney_Sector_Plate_20" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_178" vertex2="HCAL_Chimney_Sector_Plate_179" vertex3="HCAL_Chimney_Sector_Plate_84" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_0" vertex2="HCAL_Chimney_Sector_Plate_23" vertex3="HCAL_Chimney_Sector_Plate_25" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_20" vertex2="HCAL_Chimney_Sector_Plate_178" vertex3="HCAL_Chimney_Sector_Plate_84" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_7" vertex2="HCAL_Chimney_Sector_Plate_20" vertex3="HCAL_Chimney_Sector_Plate_19" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_219" vertex2="HCAL_Chimney_Sector_Plate_144" vertex3="HCAL_Chimney_Sector_Plate_118" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_144" vertex2="HCAL_Chimney_Sector_Plate_221" vertex3="HCAL_Chimney_Sector_Plate_92" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_217" vertex2="HCAL_Chimney_Sector_Plate_219" vertex3="HCAL_Chimney_Sector_Plate_118" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_221" vertex2="HCAL_Chimney_Sector_Plate_222" vertex3="HCAL_Chimney_Sector_Plate_92" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_1" vertex2="HCAL_Chimney_Sector_Plate_0" vertex3="HCAL_Chimney_Sector_Plate_25" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_217" vertex2="HCAL_Chimney_Sector_Plate_118" vertex3="HCAL_Chimney_Sector_Plate_117" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_25" vertex2="HCAL_Chimney_Sector_Plate_27" vertex3="HCAL_Chimney_Sector_Plate_1" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_11" vertex2="HCAL_Chimney_Sector_Plate_1" vertex3="HCAL_Chimney_Sector_Plate_27" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_222" vertex2="HCAL_Chimney_Sector_Plate_12" vertex3="HCAL_Chimney_Sector_Plate_38" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_12" vertex2="HCAL_Chimney_Sector_Plate_11" vertex3="HCAL_Chimney_Sector_Plate_28" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_92" vertex2="HCAL_Chimney_Sector_Plate_222" vertex3="HCAL_Chimney_Sector_Plate_38" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_28" vertex2="HCAL_Chimney_Sector_Plate_11" vertex3="HCAL_Chimney_Sector_Plate_27" type="ABSOLUTE"/>
+    <triangular vertex1="HCAL_Chimney_Sector_Plate_12" vertex2="HCAL_Chimney_Sector_Plate_28" vertex3="HCAL_Chimney_Sector_Plate_38" type="ABSOLUTE"/>
+    </tessellated>
+  </solids>
+<structure>
+    <volume name="LV_HCAL_Chimney_Sector_Plate">
+      <materialref ref="G4_AIR"/>
+    <solidref ref="WorldBox"/>
+    <physvol name="PV-LV_HCAL_Chimney_Sector_Plate">
+        <volumeref ref="LV_HCAL_Chimney_Sector_Plate"/>
+      <positionref ref="P-LV_HCAL_Chimney_Sector_Plate1"/>
+      <rotationref ref="R-LV_HCAL_Chimney_Sector_Plate1"/>
+      </physvol>
+    </volume>
+  <volume name="LV_HCAL_Chimney_Sector_Plate">
+      <materialref ref="G4_A-150_TISSUE"/>
+    <solidref ref="HCAL_Chimney_Sector_Plate"/>
+    </volume>
+  </structure>
+<setup name="Default" version="1.0">
+    <world ref="LV_HCAL_Chimney_Sector_Plate"/>
+  </setup>
+</gdml>
